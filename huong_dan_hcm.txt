@@ -12,4 +12,4 @@
 3. Deplay thử chạy project trên điện thoại Android:
 - Tải apk về điện thoại và cài đặt http://release-gsn.mto.zing.vn/teamX_hcm_apk_apk/ 
 - Mỗi lần push thay đổi lên git, thì ứng dụng trên điện thoại sẽ cập nhật lại logic khi mở lại game
-.
+- Ok
