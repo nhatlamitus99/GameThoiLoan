@@ -12,7 +12,7 @@ gv.CMD.MOVE = 2001;
 testnetwork = testnetwork||{};
 testnetwork.packetMap = {};
 
-/** Outpacket */
+/** Outpacket */  // sendToServer
 
 //Handshake
 CmdSendHandshake = fr.OutPacket.extend(
@@ -80,7 +80,7 @@ CmdSendMove = fr.OutPacket.extend(
 )
 
 /**
- * InPacket
+ * InPacket         // receiveFromServer
  */
 
 //Handshake
@@ -108,20 +108,20 @@ testnetwork.packetMap[gv.CMD.USER_LOGIN] = fr.InPacket.extend(
 );
 
 
-testnetwork.packetMap[gv.CMD.USER_INFO] = fr.InPacket.extend(
-    {
-        ctor:function()
-        {
-            this._super();
-        },
-        readData:function(){
-            this.token = this.getInt();
-            this.name = this.getString();
-            this.x = this.getInt();
-            this.y = this.getInt();
-        }
-    }
-);
+//testnetwork.packetMap[gv.CMD.USER_INFO] = fr.InPacket.extend(
+//    {
+//        ctor:function()
+//        {
+//            this._super();
+//        },
+//        readData:function(){
+//            this.token = this.getInt();
+//            this.name = this.getString();
+//            this.x = this.getInt();
+//            this.y = this.getInt();
+//        }
+//    }
+//);
 
 testnetwork.packetMap[gv.CMD.MOVE] = fr.InPacket.extend(
     {
