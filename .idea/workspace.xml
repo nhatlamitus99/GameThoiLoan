@@ -239,6 +239,10 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testnetwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -749,12 +753,12 @@
       <workItem from="1595467877142" duration="1755000" />
       <workItem from="1596094773495" duration="3298000" />
       <workItem from="1596159630115" duration="672000" />
-      <workItem from="1596177687048" duration="3993000" />
+      <workItem from="1596177687048" duration="4312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1682806000" />
+    <option name="totallyTimeSpent" value="1683125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
