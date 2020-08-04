@@ -1,0 +1,308 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bf73deb2-a7e6-4ce6-81c7-e888459e2967\" name=\"Default\" comment=\"\">\r\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" />\r\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" />\r\n    </list>\r\n    <ignored path=\"team_4_server.iws\" />\r\n    <ignored path=\".idea/workspace.xml\" />\r\n    <ignored path=\"$PROJECT_DIR$/out/\" />\r\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\r\n    <option name=\"TRACKING_ENABLED\" value=\"true\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ChangesViewManager\" flattened_view=\"true\" show_ignored=\"false\" />\r\n  <component name=\"CreatePatchCommitExecutor\">\r\n    <option name=\"PATCH_PATH\" value=\"\" />\r\n  </component>\r\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"default_target\" />\r\n  <component name=\"FavoritesManager\">\r\n    <favorites_list name=\"team_4_server\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GradleLocalSettings\">\r\n    <option name=\"externalProjectsViewState\">\r\n      <projects_view />\r\n    </option>\r\n  </component>\r\n  <component name=\"JsBuildToolGruntFileManager\" detection-done=\"true\" />\r\n  <component name=\"JsGulpfileManager\">\r\n    <detection-done>true</detection-done>\r\n  </component>\r\n  <component name=\"NamedScopeManager\">\r\n    <order />\r\n  </component>\r\n  <component name=\"ProjectFrameBounds\">\r\n    <option name=\"x\" value=\"-8\" />\r\n    <option name=\"y\" value=\"-8\" />\r\n    <option name=\"width\" value=\"1936\" />\r\n    <option name=\"height\" value=\"1056\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"false\">\r\n    <OptionsSetting value=\"true\" id=\"Add\" />\r\n    <OptionsSetting value=\"true\" id=\"Remove\" />\r\n    <OptionsSetting value=\"true\" id=\"Checkout\" />\r\n    <OptionsSetting value=\"true\" id=\"Update\" />\r\n    <OptionsSetting value=\"true\" id=\"Status\" />\r\n    <OptionsSetting value=\"true\" id=\"Edit\" />\r\n    <ConfirmationsSetting value=\"0\" id=\"Add\" />\r\n    <ConfirmationsSetting value=\"0\" id=\"Remove\" />\r\n  </component>\r\n  <component name=\"ProjectView\">\r\n    <navigator currentView=\"ProjectPane\" proportions=\"\" version=\"1\">\r\n      <flattenPackages />\r\n      <showMembers />\r\n      <showModules />\r\n      <showLibraryContents />\r\n      <hideEmptyPackages />\r\n      <abbreviatePackageNames />\r\n      <autoscrollToSource />\r\n      <autoscrollFromSource />\r\n      <sortByType />\r\n    </navigator>\r\n    <panes>\r\n      <pane id=\"Scratches\" />\r\n      <pane id=\"ProjectPane\">\r\n        <subPane>\r\n          <PATH>\r\n            <PATH_ELEMENT>\r\n              <option name=\"myItemId\" value=\"team_4_server\" />\r\n              <option name=\"myItemType\" value=\"com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode\" />\r\n            </PATH_ELEMENT>\r\n          </PATH>\r\n        </subPane>\r\n      </pane>\r\n      <pane id=\"PackagesPane\" />\r\n      <pane id=\"Scope\" />\r\n    </panes>\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"recentsLimit\" value=\"5\" />\r\n    <property name=\"restartRequiresConfirmation\" value=\"true\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"FullScreen\" value=\"false\" />\r\n    <property name=\"dynamic.classpath\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../team_4_client\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Server\">\r\n    <configuration default=\"false\" name=\"Server\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\">\r\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\r\n      <module name=\"team_4_server\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"\" />\r\n      <option name=\"METHOD_NAME\" value=\"\" />\r\n      <option name=\"TEST_OBJECT\" value=\"package\" />\r\n      <option name=\"VM_PARAMETERS\" value=\"-ea\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"file://$MODULE_DIR$\" />\r\n      <option name=\"ENV_VARIABLES\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"TEST_SEARCH_SCOPE\">\r\n        <value defaultName=\"singleModule\" />\r\n      </option>\r\n      <envs />\r\n      <patterns />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"#org.jetbrains.idea.devkit.run.PluginConfigurationType\" factoryName=\"Plugin\">\r\n      <module name=\"\" />\r\n      <option name=\"VM_PARAMETERS\" value=\"-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"AndroidRunConfigurationType\" factoryName=\"Android Application\">\r\n      <module name=\"\" />\r\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\r\n      <option name=\"MODE\" value=\"default_activity\" />\r\n      <option name=\"DEPLOY\" value=\"true\" />\r\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"EMULATOR\" />\r\n      <option name=\"USE_LAST_SELECTED_DEVICE\" value=\"false\" />\r\n      <option name=\"PREFERRED_AVD\" value=\"\" />\r\n      <option name=\"USE_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"COMMAND_LINE\" value=\"\" />\r\n      <option name=\"WIPE_USER_DATA\" value=\"false\" />\r\n      <option name=\"DISABLE_BOOT_ANIMATION\" value=\"false\" />\r\n      <option name=\"NETWORK_SPEED\" value=\"full\" />\r\n      <option name=\"NETWORK_LATENCY\" value=\"none\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"true\" />\r\n      <option name=\"FILTER_LOGCAT_AUTOMATICALLY\" value=\"true\" />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"AndroidTestRunConfigurationType\" factoryName=\"Android Tests\">\r\n      <module name=\"\" />\r\n      <option name=\"TESTING_TYPE\" value=\"0\" />\r\n      <option name=\"INSTRUMENTATION_RUNNER_CLASS\" value=\"\" />\r\n      <option name=\"METHOD_NAME\" value=\"\" />\r\n      <option name=\"CLASS_NAME\" value=\"\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"EMULATOR\" />\r\n      <option name=\"USE_LAST_SELECTED_DEVICE\" value=\"false\" />\r\n      <option name=\"PREFERRED_AVD\" value=\"\" />\r\n      <option name=\"USE_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"COMMAND_LINE\" value=\"\" />\r\n      <option name=\"WIPE_USER_DATA\" value=\"false\" />\r\n      <option name=\"DISABLE_BOOT_ANIMATION\" value=\"false\" />\r\n      <option name=\"NETWORK_SPEED\" value=\"full\" />\r\n      <option name=\"NETWORK_LATENCY\" value=\"none\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"true\" />\r\n      <option name=\"FILTER_LOGCAT_AUTOMATICALLY\" value=\"true\" />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"Applet\" factoryName=\"Applet\">\r\n      <option name=\"WIDTH\" value=\"400\" />\r\n      <option name=\"HEIGHT\" value=\"300\" />\r\n      <option name=\"POLICY_FILE\" value=\"$APPLICATION_HOME_DIR$/bin/appletviewer.policy\" />\r\n      <module />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"Application\" factoryName=\"Application\">\r\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"bitzero.server.Main\" />\r\n      <option name=\"VM_PARAMETERS\" value=\"\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"file://$PROJECT_DIR$\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"\" />\r\n      <option name=\"ENABLE_SWING_INSPECTOR\" value=\"false\" />\r\n      <option name=\"ENV_VARIABLES\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\r\n      <module name=\"team_4_server\" />\r\n      <envs />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\">\r\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\r\n      <option name=\"myFilePath\" />\r\n      <option name=\"GLUE\" />\r\n      <option name=\"myNameFilter\" />\r\n      <option name=\"myGeneratedName\" />\r\n      <option name=\"MAIN_CLASS_NAME\" />\r\n      <option name=\"VM_PARAMETERS\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" />\r\n      <option name=\"WORKING_DIRECTORY\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\r\n      <option name=\"ENABLE_SWING_INSPECTOR\" value=\"false\" />\r\n      <option name=\"ENV_VARIABLES\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\r\n      <module name=\"\" />\r\n      <envs />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"FlashRunConfigurationType\" factoryName=\"Flash App\">\r\n      <option name=\"BCName\" value=\"\" />\r\n      <option name=\"IOSSimulatorSdkPath\" value=\"\" />\r\n      <option name=\"adlOptions\" value=\"\" />\r\n      <option name=\"airProgramParameters\" value=\"\" />\r\n      <option name=\"appDescriptorForEmulator\" value=\"Android\" />\r\n      <option name=\"debugTransport\" value=\"USB\" />\r\n      <option name=\"debuggerSdkRaw\" value=\"BC SDK\" />\r\n      <option name=\"emulator\" value=\"NexusOne\" />\r\n      <option name=\"emulatorAdlOptions\" value=\"\" />\r\n      <option name=\"fastPackaging\" value=\"true\" />\r\n      <option name=\"fullScreenHeight\" value=\"0\" />\r\n      <option name=\"fullScreenWidth\" value=\"0\" />\r\n      <option name=\"launchUrl\" value=\"false\" />\r\n      <option name=\"launcherParameters\">\r\n        <LauncherParameters>\r\n          <option name=\"browser\" value=\"a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8\" />\r\n          <option name=\"launcherType\" value=\"OSDefault\" />\r\n          <option name=\"newPlayerInstance\" value=\"false\" />\r\n          <option name=\"playerPath\" value=\"FlashPlayerDebugger.exe\" />\r\n        </LauncherParameters>\r\n      </option>\r\n      <option name=\"mobileRunTarget\" value=\"Emulator\" />\r\n      <option name=\"moduleName\" value=\"\" />\r\n      <option name=\"overriddenMainClass\" value=\"\" />\r\n      <option name=\"overriddenOutputFileName\" value=\"\" />\r\n      <option name=\"overrideMainClass\" value=\"false\" />\r\n      <option name=\"runTrusted\" value=\"true\" />\r\n      <option name=\"screenDpi\" value=\"0\" />\r\n      <option name=\"screenHeight\" value=\"0\" />\r\n      <option name=\"screenWidth\" value=\"0\" />\r\n      <option name=\"url\" value=\"http://\" />\r\n      <option name=\"usbDebugPort\" value=\"7936\" />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"FlexUnitRunConfigurationType\" factoryName=\"FlexUnit\" appDescriptorForEmulator=\"Android\" class_name=\"\" emulatorAdlOptions=\"\" method_name=\"\" package_name=\"\" scope=\"Class\">\r\n      <option name=\"BCName\" value=\"\" />\r\n      <option name=\"launcherParameters\">\r\n        <LauncherParameters>\r\n          <option name=\"browser\" value=\"a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8\" />\r\n          <option name=\"launcherType\" value=\"OSDefault\" />\r\n          <option name=\"newPlayerInstance\" value=\"false\" />\r\n          <option name=\"playerPath\" value=\"FlashPlayerDebugger.exe\" />\r\n        </LauncherParameters>\r\n      </option>\r\n      <option name=\"moduleName\" value=\"\" />\r\n      <option name=\"trusted\" value=\"true\" />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list />\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"GrailsRunConfigurationType\" factoryName=\"Grails\">\r\n      <module name=\"\" />\r\n      <setting name=\"vmparams\" value=\"\" />\r\n      <setting name=\"cmdLine\" value=\"run-app\" />\r\n      <setting name=\"depsClasspath\" value=\"false\" />\r\n      <setting name=\"passParentEnv\" value=\"true\" />\r\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\r\n      <setting name=\"launchBrowser\" value=\"false\" />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JUnit\" factoryName=\"JUnit\">\r\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\r\n      <module name=\"\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\r\n      <option name=\"PACKAGE_NAME\" />\r\n      <option name=\"MAIN_CLASS_NAME\" />\r\n      <option name=\"METHOD_NAME\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <option name=\"VM_PARAMETERS\" value=\"-ea\" />\r\n      <option name=\"PARAMETERS\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_DIR$\" />\r\n      <option name=\"ENV_VARIABLES\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"TEST_SEARCH_SCOPE\">\r\n        <value defaultName=\"singleModule\" />\r\n      </option>\r\n      <envs />\r\n      <patterns />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JarApplication\" factoryName=\"JAR Application\">\r\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\r\n      <envs />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JavascriptDebugType\" factoryName=\"JavaScript Debug\">\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"NodeJSConfigurationType\" factoryName=\"Node.js\" working-dir=\"\">\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"Remote\" factoryName=\"Remote\">\r\n      <option name=\"USE_SOCKET_TRANSPORT\" value=\"true\" />\r\n      <option name=\"SERVER_MODE\" value=\"false\" />\r\n      <option name=\"SHMEM_ADDRESS\" value=\"javadebug\" />\r\n      <option name=\"HOST\" value=\"localhost\" />\r\n      <option name=\"PORT\" value=\"5005\" />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\r\n      <module name=\"\" />\r\n      <envs />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"TestNG\" factoryName=\"TestNG\">\r\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\r\n      <module name=\"\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\r\n      <option name=\"SUITE_NAME\" />\r\n      <option name=\"PACKAGE_NAME\" />\r\n      <option name=\"MAIN_CLASS_NAME\" />\r\n      <option name=\"METHOD_NAME\" />\r\n      <option name=\"GROUP_NAME\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <option name=\"VM_PARAMETERS\" value=\"-ea\" />\r\n      <option name=\"PARAMETERS\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"OUTPUT_DIRECTORY\" />\r\n      <option name=\"ANNOTATION_TYPE\" />\r\n      <option name=\"ENV_VARIABLES\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"TEST_SEARCH_SCOPE\">\r\n        <value defaultName=\"singleModule\" />\r\n      </option>\r\n      <option name=\"USE_DEFAULT_REPORTERS\" value=\"false\" />\r\n      <option name=\"PROPERTIES_FILE\" />\r\n      <envs />\r\n      <properties />\r\n      <listeners />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"js.build_tools.gulp\" factoryName=\"Gulp.js\">\r\n      <node-options />\r\n      <gulpfile />\r\n      <tasks />\r\n      <arguments />\r\n      <pass-parent-envs>true</pass-parent-envs>\r\n      <envs />\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"osgi.bnd.run\" factoryName=\"Run Launcher\">\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"osgi.bnd.run\" factoryName=\"Test Launcher (JUnit)\">\r\n      <method />\r\n    </configuration>\r\n    <configuration default=\"false\" name=\"Server\" type=\"Application\" factoryName=\"Application\">\r\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"bitzero.server.Main\" />\r\n      <option name=\"VM_PARAMETERS\" value=\"\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"file://$PROJECT_DIR$\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"\" />\r\n      <option name=\"ENABLE_SWING_INSPECTOR\" value=\"false\" />\r\n      <option name=\"ENV_VARIABLES\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\r\n      <module name=\"team_4_server\" />\r\n      <envs />\r\n      <method />\r\n    </configuration>\r\n    <list size=\"2\">\r\n      <item index=\"0\" class=\"java.lang.String\" itemvalue=\"Application.Server\" />\r\n      <item index=\"1\" class=\"java.lang.String\" itemvalue=\"JUnit.Server\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list size=\"1\">\r\n        <item index=\"0\" class=\"java.lang.String\" itemvalue=\"JUnit.Server\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"ShelveChangesManager\" show_recycled=\"false\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"bf73deb2-a7e6-4ce6-81c7-e888459e2967\" name=\"Default\" comment=\"\" />\r\n      <created>1595295579354</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <updated>1595295579354</updated>\r\n      <workItem from=\"1595295583355\" duration=\"172000\" />\r\n      <workItem from=\"1595295831821\" duration=\"1679000\" />\r\n      <workItem from=\"1596178073301\" duration=\"619000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TimeTrackingManager\">\r\n    <option name=\"totallyTimeSpent\" value=\"2470000\" />\r\n  </component>\r\n  <component name=\"ToolWindowManager\">\r\n    <frame x=\"-8\" y=\"-8\" width=\"1936\" height=\"1056\" extended-state=\"1\" />\r\n    <editor active=\"false\" />\r\n    <layout>\r\n      <window_info id=\"Palette\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"TODO\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"6\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Palette&#9;\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Event Log\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"true\" content_ui=\"tabs\" />\r\n      <window_info id=\"Application Servers\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Maven Projects\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Version Control\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Terminal\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Designer\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Project\" active=\"true\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"combo\" />\r\n      <window_info id=\"Database\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Structure\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Ant Build\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"UI Designer\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Favorites\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"true\" content_ui=\"tabs\" />\r\n      <window_info id=\"Cvs\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.25\" sideWeight=\"0.5\" order=\"4\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Messages\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Message\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Commander\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"SLIDING\" type=\"SLIDING\" visible=\"false\" weight=\"0.4\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Inspection\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.4\" sideWeight=\"0.5\" order=\"5\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Run\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.32946146\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Hierarchy\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.25\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"combo\" />\r\n      <window_info id=\"Find\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\r\n      <window_info id=\"Debug\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" weight=\"0.4\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\r\n    </layout>\r\n  </component>\r\n  <component name=\"Vcs.Log.UiProperties\">\r\n    <option name=\"RECENTLY_FILTERED_USER_GROUPS\">\r\n      <collection />\r\n    </option>\r\n    <option name=\"RECENTLY_FILTERED_BRANCH_GROUPS\">\r\n      <collection />\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsContentAnnotationSettings\">\r\n    <option name=\"myLimit\" value=\"2678400000\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager />\r\n    <watches-manager />\r\n  </component>\r\n  <component name=\"antWorkspaceConfiguration\">\r\n    <option name=\"IS_AUTOSCROLL_TO_SOURCE\" value=\"false\" />\r\n    <option name=\"FILTER_TARGETS\" value=\"false\" />\r\n  </component>\r\n  <component name=\"masterDetails\">\r\n    <states>\r\n      <state key=\"ArtifactsStructureConfigurable.UI\">\r\n        <settings>\r\n          <artifact-editor />\r\n          <splitter-proportions>\r\n            <option name=\"proportions\">\r\n              <list>\r\n                <option value=\"0.2\" />\r\n              </list>\r\n            </option>\r\n          </splitter-proportions>\r\n        </settings>\r\n      </state>\r\n      <state key=\"FacetStructureConfigurable.UI\">\r\n        <settings>\r\n          <last-edited>No facets are configured</last-edited>\r\n          <splitter-proportions>\r\n            <option name=\"proportions\">\r\n              <list>\r\n                <option value=\"0.2\" />\r\n              </list>\r\n            </option>\r\n          </splitter-proportions>\r\n        </settings>\r\n      </state>\r\n      <state key=\"GlobalLibrariesConfigurable.UI\">\r\n        <settings>\r\n          <splitter-proportions>\r\n            <option name=\"proportions\">\r\n              <list>\r\n                <option value=\"0.2\" />\r\n              </list>\r\n            </option>\r\n          </splitter-proportions>\r\n        </settings>\r\n      </state>\r\n      <state key=\"JdkListConfigurable.UI\">\r\n        <settings>\r\n          <splitter-proportions>\r\n            <option name=\"proportions\">\r\n              <list>\r\n                <option value=\"0.2\" />\r\n              </list>\r\n            </option>\r\n          </splitter-proportions>\r\n        </settings>\r\n      </state>\r\n      <state key=\"ModuleStructureConfigurable.UI\">\r\n        <settings>\r\n          <last-edited>team_4_server</last-edited>\r\n          <splitter-proportions>\r\n            <option name=\"proportions\">\r\n              <list>\r\n                <option value=\"0.2\" />\r\n              </list>\r\n            </option>\r\n          </splitter-proportions>\r\n        </settings>\r\n      </state>\r\n      <state key=\"ProjectJDKs.UI\">\r\n        <settings>\r\n          <splitter-proportions>\r\n            <option name=\"proportions\">\r\n              <list>\r\n                <option value=\"0.2\" />\r\n              </list>\r\n            </option>\r\n          </splitter-proportions>\r\n        </settings>\r\n      </state>\r\n      <state key=\"ProjectLibrariesConfigurable.UI\">\r\n        <settings>\r\n          <last-edited>Fresher_demo</last-edited>\r\n          <splitter-proportions>\r\n            <option name=\"proportions\">\r\n              <list>\r\n                <option value=\"0.2\" />\r\n              </list>\r\n            </option>\r\n          </splitter-proportions>\r\n        </settings>\r\n      </state>\r\n    </states>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 5491763b483d0aeb5dc8b1203d843caf919a73db)
++++ .idea/workspace.xml	(date 1596552751803)
+@@ -95,33 +95,6 @@
+     <property name="last_opened_file_path" value="$PROJECT_DIR$/../team_4_client" />
+   </component>
+   <component name="RunManager" selected="Application.Server">
+-    <configuration default="false" name="Server" type="JUnit" factoryName="JUnit" temporary="true">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <module name="team_4_server" />
+-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+-      <option name="PACKAGE_NAME" value="" />
+-      <option name="MAIN_CLASS_NAME" value="" />
+-      <option name="METHOD_NAME" value="" />
+-      <option name="TEST_OBJECT" value="package" />
+-      <option name="VM_PARAMETERS" value="-ea" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+-      <option name="ENV_VARIABLES" />
+-      <option name="PASS_PARENT_ENVS" value="true" />
+-      <option name="TEST_SEARCH_SCOPE">
+-        <value defaultName="singleModule" />
+-      </option>
+-      <envs />
+-      <patterns />
+-      <method />
+-    </configuration>
+-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+-      <module name="" />
+-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+-      <option name="PROGRAM_PARAMETERS" />
+-      <method />
+-    </configuration>
+     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+       <module name="" />
+       <option name="ACTIVITY_CLASS" value="" />
+@@ -170,40 +143,6 @@
+       <module />
+       <method />
+     </configuration>
+-    <configuration default="true" type="Application" factoryName="Application">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <option name="MAIN_CLASS_NAME" value="bitzero.server.Main" />
+-      <option name="VM_PARAMETERS" value="" />
+-      <option name="PROGRAM_PARAMETERS" value="" />
+-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+-      <option name="ENV_VARIABLES" />
+-      <option name="PASS_PARENT_ENVS" value="true" />
+-      <module name="team_4_server" />
+-      <envs />
+-      <method />
+-    </configuration>
+-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <option name="myFilePath" />
+-      <option name="GLUE" />
+-      <option name="myNameFilter" />
+-      <option name="myGeneratedName" />
+-      <option name="MAIN_CLASS_NAME" />
+-      <option name="VM_PARAMETERS" />
+-      <option name="PROGRAM_PARAMETERS" />
+-      <option name="WORKING_DIRECTORY" />
+-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+-      <option name="ALTERNATIVE_JRE_PATH" />
+-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+-      <option name="ENV_VARIABLES" />
+-      <option name="PASS_PARENT_ENVS" value="true" />
+-      <module name="" />
+-      <envs />
+-      <method />
+-    </configuration>
+     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+       <option name="BCName" value="" />
+       <option name="IOSSimulatorSdkPath" value="" />
+@@ -253,143 +192,110 @@
+       <option name="trusted" value="true" />
+       <method />
+     </configuration>
+-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+-      <ExternalSystemSettings>
+-        <option name="executionName" />
+-        <option name="externalProjectPath" />
+-        <option name="externalSystemIdString" value="GRADLE" />
+-        <option name="scriptParameters" />
+-        <option name="taskDescriptions">
+-          <list />
+-        </option>
+-        <option name="taskNames">
+-          <list />
+-        </option>
+-        <option name="vmOptions" />
+-      </ExternalSystemSettings>
+-      <method />
++    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
++      <method />
++    </configuration>
++    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
++      <method />
++    </configuration>
++    <configuration name="Server" type="Application" factoryName="Application">
++      <option name="MAIN_CLASS_NAME" value="bitzero.server.Main" />
++      <module name="team_4_server" />
++      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="Application" factoryName="Application">
++      <option name="MAIN_CLASS_NAME" value="bitzero.server.Main" />
++      <module name="team_4_server" />
++      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
++      <option name="arquillianRunConfiguration">
++        <value>
++          <option name="containerStateName" value="" />
++        </value>
++      </option>
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
+     </configuration>
+     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+-      <module name="" />
+       <setting name="vmparams" value="" />
+       <setting name="cmdLine" value="run-app" />
++      <setting name="passParentEnv" value="true" />
++      <setting name="grailsApplicationRoot" value="" />
++      <setting name="launchBrowser" value="false" />
++      <setting name="launchBrowserUrl" value="" />
+       <setting name="depsClasspath" value="false" />
+-      <setting name="passParentEnv" value="true" />
+       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <setting name="launchBrowser" value="false" />
+-      <method />
++      <method v="2" />
++    </configuration>
++    <configuration name="Server" type="JUnit" factoryName="JUnit" temporary="true">
++      <module name="team_4_server" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="TEST_OBJECT" value="package" />
++      <option name="PARAMETERS" value="" />
++      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
+     </configuration>
+     <configuration default="true" type="JUnit" factoryName="JUnit">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <module name="" />
+-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+-      <option name="ALTERNATIVE_JRE_PATH" />
+-      <option name="PACKAGE_NAME" />
+-      <option name="MAIN_CLASS_NAME" />
+-      <option name="METHOD_NAME" />
+       <option name="TEST_OBJECT" value="class" />
+-      <option name="VM_PARAMETERS" value="-ea" />
+-      <option name="PARAMETERS" />
+       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+-      <option name="ENV_VARIABLES" />
+-      <option name="PASS_PARENT_ENVS" value="true" />
+-      <option name="TEST_SEARCH_SCOPE">
+-        <value defaultName="singleModule" />
+-      </option>
+-      <envs />
+-      <patterns />
+-      <method />
+-    </configuration>
+-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <envs />
+-      <method />
+-    </configuration>
+-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+-      <method />
+-    </configuration>
+-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+-      <method />
+-    </configuration>
+-    <configuration default="true" type="Remote" factoryName="Remote">
+-      <option name="USE_SOCKET_TRANSPORT" value="true" />
+-      <option name="SERVER_MODE" value="false" />
+-      <option name="SHMEM_ADDRESS" value="javadebug" />
+-      <option name="HOST" value="localhost" />
+-      <option name="PORT" value="5005" />
+-      <method />
+-    </configuration>
+-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <module name="" />
+-      <envs />
+-      <method />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
+     </configuration>
+-    <configuration default="true" type="TestNG" factoryName="TestNG">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <module name="" />
+-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+-      <option name="ALTERNATIVE_JRE_PATH" />
+-      <option name="SUITE_NAME" />
+-      <option name="PACKAGE_NAME" />
+-      <option name="MAIN_CLASS_NAME" />
+-      <option name="METHOD_NAME" />
+-      <option name="GROUP_NAME" />
++    <configuration default="true" type="TestNG">
+       <option name="TEST_OBJECT" value="CLASS" />
+-      <option name="VM_PARAMETERS" value="-ea" />
+-      <option name="PARAMETERS" />
+       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-      <option name="OUTPUT_DIRECTORY" />
+-      <option name="ANNOTATION_TYPE" />
+-      <option name="ENV_VARIABLES" />
+-      <option name="PASS_PARENT_ENVS" value="true" />
+-      <option name="TEST_SEARCH_SCOPE">
+-        <value defaultName="singleModule" />
+-      </option>
+-      <option name="USE_DEFAULT_REPORTERS" value="false" />
+-      <option name="PROPERTIES_FILE" />
+-      <envs />
+       <properties />
+       <listeners />
+-      <method />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
++      <module name="" />
++      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
++      <option name="PROGRAM_PARAMETERS" />
++      <predefined_log_file enabled="true" id="idea.log" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
+     </configuration>
+-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
++    <configuration default="true" type="js.build_tools.gulp">
++      <node-interpreter>project</node-interpreter>
+       <node-options />
+       <gulpfile />
+       <tasks />
+       <arguments />
+       <pass-parent-envs>true</pass-parent-envs>
+-      <envs />
+-      <method />
++      <method v="2" />
+     </configuration>
+-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+-      <method />
+-    </configuration>
+-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+-      <method />
+-    </configuration>
+-    <configuration default="false" name="Server" type="Application" factoryName="Application">
+-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+-      <option name="MAIN_CLASS_NAME" value="bitzero.server.Main" />
+-      <option name="VM_PARAMETERS" value="" />
+-      <option name="PROGRAM_PARAMETERS" value="" />
+-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+-      <option name="ENV_VARIABLES" />
+-      <option name="PASS_PARENT_ENVS" value="true" />
+-      <module name="team_4_server" />
+-      <envs />
+-      <method />
+-    </configuration>
+-    <list size="2">
+-      <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+-      <item index="1" class="java.lang.String" itemvalue="JUnit.Server" />
++    <list>
++      <item itemvalue="Application.Server" />
++      <item itemvalue="JUnit.Server" />
+     </list>
+     <recent_temporary>
+-      <list size="1">
+-        <item index="0" class="java.lang.String" itemvalue="JUnit.Server" />
++      <list>
++        <item itemvalue="JUnit.Server" />
++        <item itemvalue="JUnit.Server" />
++        <item itemvalue="JUnit.Server" />
+       </list>
+     </recent_temporary>
+   </component>
