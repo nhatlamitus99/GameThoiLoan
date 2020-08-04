@@ -1,4 +1,5 @@
 
+var SIZE_MAP = 40;
 
 var MapObject = cc.Class.extend(
     {
@@ -94,3 +95,10 @@ var MapObject = cc.Class.extend(
 
     }
 )
+
+MapObject.findPosition = function(map){
+    for(var i = 0; i < SIZE_MAP; ++i) {
+        if(map.checkOverlap(this))
+            return
+    }
+}

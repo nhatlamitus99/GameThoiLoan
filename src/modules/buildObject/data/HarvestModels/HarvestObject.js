@@ -1,6 +1,6 @@
 
 
-var harvestObject = CreatedMapObject.extend(
+var HarvestObject = CreatedMapObject.extend(
     {
         valueBeforeUpgrade: 0,
         imagePath: null,
