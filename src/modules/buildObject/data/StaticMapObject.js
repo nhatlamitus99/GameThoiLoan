@@ -2,7 +2,6 @@
 var StaticMapObject = MapObject.extend(
     {
         value: 0,
-        imagePath: null,
         cost: 0,
         removedTime: 0,
 
@@ -22,10 +21,6 @@ var StaticMapObject = MapObject.extend(
             return this.value;
         },
 
-        getImage: function() {
-            return this.imagePath;
-        },
-
         getCost: function() {
             return this.cost;
         },
@@ -36,10 +31,6 @@ var StaticMapObject = MapObject.extend(
 
         setValue: function(value) {
             this.value = value;
-        },
-
-        setImage: function(imagePath) {
-            this.imagePath = imagePath;
         },
 
         setCost: function(cost) {

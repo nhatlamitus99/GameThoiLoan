@@ -108,6 +108,7 @@ testnetwork.packetMap[gv.CMD.USER_LOGIN] = fr.InPacket.extend(
 );
 
 
+<<<<<<< HEAD
 //testnetwork.packetMap[gv.CMD.USER_INFO] = fr.InPacket.extend(
 //    {
 //        ctor:function()
@@ -122,6 +123,22 @@ testnetwork.packetMap[gv.CMD.USER_LOGIN] = fr.InPacket.extend(
 //        }
 //    }
 //);
+=======
+testnetwork.packetMap[gv.CMD.USER_INFO] = fr.InPacket.extend(
+    {
+        ctor:function()
+        {
+            this._super();
+        },
+        readData:function(){
+            //this.token = this.getInt();
+            //this.name = this.getString();
+            this.x = this.getInt();
+            this.y = this.getInt();
+        }
+    }
+);
+>>>>>>> 61a0e28bfe4c18bb86e1bc3642db07e164d57808
 
 testnetwork.packetMap[gv.CMD.MOVE] = fr.InPacket.extend(
     {

@@ -10,6 +10,7 @@ var MapObject = cc.Class.extend(
         position: null,
         size: null,
         state: false,
+        imagePath: null,
         beginTime: null,
 
 
@@ -49,8 +50,12 @@ var MapObject = cc.Class.extend(
             return this.id;
         },
 
-        getPosition: function() {
-            return this.position;
+        getPositionX: function() {
+            return this.position.x;
+        },
+
+        getPositionY: function() {
+            return this.position.y;
         },
 
         getSize: function() {
@@ -61,8 +66,16 @@ var MapObject = cc.Class.extend(
             return this.state;
         },
 
+        getImage: function() {
+            return this.imagePath;
+        },
+
         getBeginTime: function() {
             return this.beginTime;
+        },
+
+        setImage: function(imagePath) {
+            this.imagePath = imagePath;
         },
 
         setName: function(name) {
@@ -77,8 +90,9 @@ var MapObject = cc.Class.extend(
             this.id = id;
         },
 
-        setPosition: function(position) {
-            this.position = position;
+        setPosition: function(x, y) {
+            this.position.x = x;
+            this.position.y = y;
         },
 
         setSize: function(size) {
@@ -96,9 +110,3 @@ var MapObject = cc.Class.extend(
     }
 )
 
-MapObject.findPosition = function(map){
-    for(var i = 0; i < SIZE_MAP; ++i) {
-        if(map.checkOverlap(this))
-            return
-    }
-}

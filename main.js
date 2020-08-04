@@ -31,9 +31,19 @@ cc.game.onStart = function () {
         gv.gameClient = new GameClient();
         gv.poolObjects = new PoolObject();
         //modules
-        testnetwork.connector = new testnetwork.Connector(gv.gameClient);
+        //testnetwork.connector = new testnetwork.Connector(gv.gameClient);
 
-        fr.view(ScreenMenu);
+        // view mainScreen
+        //fr.view(ScreenMenu);
+
+        // testing area
+
+        // test Mapdata
+        //var mapData = new MapData();
+        //mapData.customInit();
+        //mapData.insertObject2Map(0, 0, 3, 3, 1, 1);
+        //cc.log(mapData.checkOverlap(0, 0, 3, 3));
+
     }, this);
 };
 cc.game.run();
