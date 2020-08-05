@@ -38,12 +38,25 @@
         "src/base/network/InPacketFactory.js",
         "src/base/Resource.js",
         "src/base/UIFactory.js",
-
         "src/config/Map.js",
-
         "src/modules/Game/data/GameData.js",
         "src/modules/Game/graphics/GameView.js",
-
-        "src/modules/Map/data/MapData.js"
+        "src/modules/Map/data/MapData.js",
+        "src/modules/object/ObjectMgr.js",
+        "src/modules/object/data/MapObject.js",
+        "src/modules/object/data/staticObject/StaticMapObject.js",
+        "src/modules/object/data/createdObject/CreatedMapObject.js",
+        "src/modules/object/data/createdObject/armyObject/ArmyCamp.js",
+        "src/modules/object/data/createdObject/armyObject/Barrack.js",
+        "src/modules/object/data/createdObject/defenseObject/AnchorTown.js",
+        "src/modules/object/data/createdObject/defenseObject/Canon.js",
+        "src/modules/object/data/createdObject/defenseObject/Trebuchet.js",
+        "src/modules/object/data/createdObject/defenseObject/DefenseObject.js",
+        "src/modules/object/data/createdObject/harvestObject/ElixirMine.js",
+        "src/modules/object/data/createdObject/harvestObject/GoldMine.js",
+        "src/modules/object/data/createdObject/harvestObject/HarvestObject.js",
+        "src/modules/object/data/createdObject/warehouseObject/ElixirStorage.js",
+        "src/modules/object/data/createdObject/warehouseObject/GoldStorage.js",
+        "src/modules/object/data/createdObject/warehouseObject/WarehouseObject.js"
     ]
 }

@@ -26,14 +26,6 @@ var MapObject = cc.Class.extend(
 
         },
 
-        stopAction: function() {
-
-        },
-
-        executeImmediately: function() {
-
-        },
-
         sendMessage: function() {
 
         },
