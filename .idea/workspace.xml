@@ -20,19 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf73deb2-a7e6-4ce6-81c7-e888459e2967" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/builder/BuilderMgr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/game/GameMgr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/game/data/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/game/data/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/game/data/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/map/data/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/map/data/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/object/ObjectMgr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/object/data/MapObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/shop/ShopMgr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/builder/data/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/builder/data/BuilderHut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/map/MapMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/CreatedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/TownHall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/ArmyCamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/Barrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AnchorTown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Canon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Trebuchet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/ElixirMine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/GoldMine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/warehouseObject/ElixirStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/warehouseObject/GoldStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/object/data/staticObject/StaticObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/shop/data/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PlayerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PlayerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/game/data/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/game/data/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/game/data/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/game/data/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/game/data/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/map/data/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/map/data/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/object/ObjectMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/object/ObjectMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/object/data/MapObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/object/data/MapObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,13 +209,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -296,6 +309,7 @@
       <workItem from="1595295583355" duration="172000" />
       <workItem from="1595295831821" duration="1679000" />
       <workItem from="1596178073301" duration="619000" />
+      <workItem from="1596592632676" duration="8930000" />
     </task>
     <servers />
   </component>
@@ -312,6 +326,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -322,6 +337,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1596601607684">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1596601607684" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596595215437">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596595215437" />
     <state x="129" y="55" key="MergeDialog" timestamp="1596552822099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
