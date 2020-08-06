@@ -1,11 +1,34 @@
 package modules.object.data;
 
+import com.google.gson.Gson;
+import com.google.gson.stream.JsonReader;
+import jdk.nashorn.internal.parser.JSONParser;
+import org.apache.commons.io.IOUtils;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import util.database.DataModel;
 
 import java.awt.*;
+import java.io.*;
 import java.util.Date;
 
 public class MapObject extends DataModel {
+
+    int typeId;
+    String type;
+    String name;
+    String description;
+    int size;
+    int id;
+    Point position;
+    boolean state;
+    String imagePath;
+    Date beginTime;
+
+
+
+
 
     public String getName() {
         return name;
@@ -71,21 +94,19 @@ public class MapObject extends DataModel {
         this.beginTime = beginTime;
     }
 
-    int type;
-    String name;
-    String description;
-    int size;
-    int id;
-    Point position;
-    boolean state;
-    String imagePath;
-    Date beginTime;
+    public int getTypeId() {
+        return typeId;
+    }
 
-    public int getType() {
+    public void setTypeId(int typeId) {
+        this.typeId = typeId;
+    }
+
+    public String getType() {
         return type;
     }
 
-    public void setType(int type) {
+    public void setType(String type) {
         this.type = type;
     }
 }

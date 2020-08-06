@@ -5,6 +5,6 @@ import modules.object.data.createdObject.CreatedObject;
 public class BuilderHut extends CreatedObject {
 
     public BuilderHut() {
-        this.setType(10);
+        this.setTypeId(10);
     }
 }

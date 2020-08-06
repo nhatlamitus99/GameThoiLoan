@@ -5,6 +5,6 @@ import modules.object.data.MapObject;
 public class StaticObject extends MapObject {
 
     public StaticObject() {
-        this.setType(11);
+        this.setTypeId(11);
     }
 }

@@ -22,8 +22,15 @@ import event.handler.LogoutHandler;
 
 import java.util.List;
 
+import modules.object.data.createdObject.armyObject.ArmyCamp;
+import modules.object.data.createdObject.armyObject.Barrack;
+import modules.object.data.createdObject.defenseObject.AAGun;
+import modules.object.data.createdObject.warehouseObject.ElixirStorage;
+import modules.object.data.createdObject.warehouseObject.GoldStorage;
+import modules.object.data.createdObject.warehouseObject.StorageUtils;
 import org.apache.commons.lang.exception.ExceptionUtils;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import service.DemoHandler;
@@ -51,6 +58,7 @@ public class FresherExtension extends BZExtension {
     }
 
     public void init() {
+        
 
         /**
          * register new handler to catch client's packet
@@ -120,6 +128,8 @@ public class FresherExtension extends BZExtension {
      * the first packet send from client after handshake success will dispatch to doLogin() function
      */
     public void doLogin(short cmdId, ISession session, DataCmd objData) {
+
+
         RequestLogin reqGet = new RequestLogin(objData);
         reqGet.unpackData();
        

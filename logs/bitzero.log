@@ -1,2 +1,9 @@
 05 Jun 2020 14:44:09,102 WARN  [main] entities.managers.BZBannedUserManager     - Failure loading the BannedUser DB: java.io.InvalidClassException: bitzero.server.entities.managers.BanUserData; local class incompatible: stream classdesc serialVersionUID = -5615498807880409532, local class serialVersionUID = -5727904595766376640
 05 Jun 2020 14:44:14,461 WARN  [BZ-Alpha ShutdownHook] server.core.BZShutdownHook     - BZ-Alpha is shutting down. The process may take a few seconds...
+06 Aug 2020 10:07:05,037 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.armyObject.ArmyCamp declares multiple JSON fields named type
+06 Aug 2020 10:08:04,785 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.armyObject.ArmyCamp declares multiple JSON fields named type
+06 Aug 2020 10:09:19,019 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.armyObject.ArmyCamp declares multiple JSON fields named type
+06 Aug 2020 10:11:41,214 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.armyObject.ArmyCamp declares multiple JSON fields named type
+06 Aug 2020 10:36:58,285 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 14 column 6
+06 Aug 2020 14:17:20,963 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+06 Aug 2020 14:21:30,756 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***

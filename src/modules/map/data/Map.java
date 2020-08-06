@@ -35,7 +35,7 @@ public class Map extends DataModel {
     }
     
     public void insertObject(MapObject object) {
-        map[object.getPosition().x][object.getPosition().y].type = object.getType();
+        map[object.getPosition().x][object.getPosition().y].type = object.getTypeId();
         map[object.getPosition().x][object.getPosition().y].id = object.getId();
     }
 
