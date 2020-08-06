@@ -1,17 +1,16 @@
 package modules.object.data.createdObject.defenseObject;
 
-import modules.object.data.createdObject.CreatedObject;
 import org.json.JSONObject;
 
 /**
  * Created by CPU12750-local on 8/6/2020.
  */
-public class AAGun extends CreatedObject {
+public class AAGun extends DefenseObject {
 
     private final String TYPE_OBJECT = "DEF_5";
 
     public AAGun() {
-        this.setTypeId(12);
+        this.setType("AAGun");
     }
 
     public JSONObject loadConfig() {

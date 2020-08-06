@@ -3,12 +3,12 @@ package modules.object.data.createdObject.defenseObject;
 import modules.object.data.createdObject.CreatedObject;
 import org.json.JSONObject;
 
-public class Canon extends CreatedObject {
+public class Canon extends DefenseObject {
 
     private final String TYPE_OBJECT = "DEF_1";
 
     public Canon() {
-        this.setTypeId(4);
+        this.setType("Canon");
     }
 
     public JSONObject loadConfig() {

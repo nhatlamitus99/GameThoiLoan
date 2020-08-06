@@ -11,7 +11,7 @@ public class Barrack extends CreatedObject {
 
 
     public Barrack() {
-        this.setTypeId(2);
+        this.setType("Barrack");
     }
 
 

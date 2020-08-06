@@ -7,3 +7,10 @@
 06 Aug 2020 10:36:58,285 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 14 column 6
 06 Aug 2020 14:17:20,963 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
 06 Aug 2020 14:21:30,756 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+06 Aug 2020 15:06:40,848 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 2, Size: 1
+06 Aug 2020 15:07:02,060 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 1, Size: 1
+06 Aug 2020 15:08:00,450 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 3, Size: 3
+06 Aug 2020 15:09:08,952 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 3, Size: 3
+06 Aug 2020 15:46:14,227 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 3, Size: 3
+06 Aug 2020 16:53:42,306 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 1, Size: 1
+06 Aug 2020 16:55:29,229 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 2, Size: 1

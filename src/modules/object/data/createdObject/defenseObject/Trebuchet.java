@@ -3,12 +3,12 @@ package modules.object.data.createdObject.defenseObject;
 import modules.object.data.createdObject.CreatedObject;
 import org.json.JSONObject;
 
-public class Trebuchet extends CreatedObject {
+public class Trebuchet extends DefenseObject {
 
     private final String TYPE_OBJECT = "DEF_3";
 
     public Trebuchet() {
-        this.setTypeId(5);
+        this.setType("Trebuchet");
     }
 
     public JSONObject loadConfig() {

@@ -12,8 +12,8 @@ import java.io.FileReader;
  */
 public class ObjectUtils {
 
-    public JSONObject loadBaseConfig(String typeStorage, String typeObject) {
-        String filename = "res/content/Documents/ConfigJSON/" + typeStorage + ".json";
+    public JSONObject loadBaseConfig(String typeCategory, String typeObject) {
+        String filename = "res/content/Documents/ConfigJSON/" + typeCategory + ".json";
         Gson gson = new Gson();
         JsonReader reader = null;
         try {
@@ -33,8 +33,8 @@ public class ObjectUtils {
         return null;
     }
 
-    public JSONObject loadConfig(String typeStorage, String typeObject, int level) {
-        String filename = "res/content/Documents/ConfigJSON/" + typeStorage + ".json";
+    public JSONObject loadConfig(String typeCategory, String typeObject, int level) {
+        String filename = "res/content/Documents/ConfigJSON/" + typeCategory + ".json";
         Gson gson = new Gson();
         JsonReader reader = null;
         try {

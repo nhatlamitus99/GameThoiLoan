@@ -9,7 +9,7 @@ public class GoldMine extends CreatedObject {
     private final String TYPE_OBJECT = "RES_1";
 
     public GoldMine() {
-        this.setTypeId(7);
+        this.setType("GoldMine");
     }
 
     public JSONObject loadConfig(int level) {

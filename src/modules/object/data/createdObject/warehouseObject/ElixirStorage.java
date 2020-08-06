@@ -9,7 +9,7 @@ public class ElixirStorage extends CreatedObject {
 
 
     public ElixirStorage() {
-        this.setTypeId(8);
+        this.setType("ElixirStorage");
     }
 
     public JSONObject loadConfig(int level) {

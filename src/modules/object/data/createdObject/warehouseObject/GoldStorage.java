@@ -9,7 +9,7 @@ public class GoldStorage extends CreatedObject {
     private final String TYPE_OBJECT = "STO_1";
 
     public GoldStorage() {
-        this.setTypeId(9);
+        this.setType("GoldStorage");
     }
 
     public JSONObject loadConfig(int level) {

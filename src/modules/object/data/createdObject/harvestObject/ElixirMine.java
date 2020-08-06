@@ -9,7 +9,7 @@ public class ElixirMine extends CreatedObject {
     private final String TYPE_OBJECT = "RES_2";
 
     public ElixirMine() {
-        this.setTypeId(6);
+        this.setType("ElixirMine");
     }
 
     public JSONObject loadConfig(int level) {

@@ -3,6 +3,7 @@ package modules.object.data;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 import jdk.nashorn.internal.parser.JSONParser;
+import modules.game.data.Resource;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -25,6 +26,7 @@ public class MapObject extends DataModel {
     boolean state;
     String imagePath;
     Date beginTime;
+    // Resource cost
 
 
 

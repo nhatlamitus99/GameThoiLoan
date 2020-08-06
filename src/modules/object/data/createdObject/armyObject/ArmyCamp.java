@@ -16,7 +16,7 @@ public class ArmyCamp extends CreatedObject {
 
 
     public ArmyCamp() {
-        this.setTypeId(1);
+        this.setType("ArmyCamp");
     }
 
     public JSONObject loadConfig(int level) {
