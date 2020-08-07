@@ -1,6 +1,5 @@
 package modules.game.data;
 
-import com.google.gson.Gson;
 import model.PlayerInfo;
 import modules.object.ObjectData;
 import modules.object.ObjectMgr;
@@ -12,7 +11,7 @@ import java.util.ArrayList;
 /**
  * Created by CPU12750-local on 8/7/2020.
  */
-public class GameData extends DataModel {
+public class GameData extends DataModel implements Cloneable {
     Resource resource;
     PlayerInfo playerInfo;
     ArrayList<ObjectData> listObject = new ArrayList<ObjectData>();
@@ -38,5 +37,9 @@ public class GameData extends DataModel {
                 listObject.add(objectData);
             }
         }
+    }
+
+    public GameData clone()throws CloneNotSupportedException{
+        return (GameData)super.clone();
     }
 }

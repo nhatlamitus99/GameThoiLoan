@@ -1,17 +1,9 @@
 package modules.object.data;
 
-import com.google.gson.Gson;
-import com.google.gson.stream.JsonReader;
-import jdk.nashorn.internal.parser.JSONParser;
-import modules.game.data.Resource;
-import org.apache.commons.io.IOUtils;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import util.database.DataModel;
 
+import modules.game.data.Resource;
+import util.database.DataModel;
 import java.awt.*;
-import java.io.*;
 import java.util.Date;
 
 public class MapObject extends DataModel {

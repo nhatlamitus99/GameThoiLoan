@@ -257,6 +257,4 @@ public class ObjectMgr extends DataModel {
         return defenseObject;
     }
 
-
-
 }
