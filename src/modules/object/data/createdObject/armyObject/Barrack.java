@@ -6,13 +6,23 @@ import org.json.JSONObject;
 
 public class Barrack extends CreatedObject {
 
+
     private final String TYPE_CATEGORY = "Barrack";
     private final String TYPE_OBJECT = "BAR_1";
     int queueLength;
 
 
     public Barrack() {
-        this.setType("Barrack");
+        this.setType(TYPE_CATEGORY);
+        this.setTypeObj(TYPE_OBJECT);
+    }
+
+    public String getTYPE_CATEGORY() {
+        return TYPE_CATEGORY;
+    }
+
+    public String getTYPE_OBJECT() {
+        return TYPE_OBJECT;
     }
 
 

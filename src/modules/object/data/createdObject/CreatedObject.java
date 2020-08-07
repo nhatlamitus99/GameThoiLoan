@@ -7,7 +7,6 @@ import java.util.Date;
 public class CreatedObject extends MapObject {
 
     int hitPoints;
-    int level;
     int buildingCost;
     int buildingTime;
     int upgradingCost;
@@ -35,13 +34,6 @@ public class CreatedObject extends MapObject {
         this.hitPoints = hitPoints;
     }
 
-    public int getLevel() {
-        return level;
-    }
-
-    public void setLevel(int level) {
-        this.level = level;
-    }
 
 
     public int getBuildingCost() {

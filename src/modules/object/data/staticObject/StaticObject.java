@@ -6,15 +6,14 @@ import org.json.JSONObject;
 
 public class StaticObject extends MapObject {
 
-    String TYPE_OBJECT;
+
     int removedTime;
     int value;
-
     private final String TYPE_CATEGORY = "Obstacle";
 
     public StaticObject(String TYPE_OBJECT) {
-        this.setType("StaticObject");
-        this.setTypeObstacle(TYPE_OBJECT);
+        this.setType(TYPE_CATEGORY);
+        this.setTypeObj(TYPE_OBJECT);
     }
 
     public int getValue() {
@@ -35,17 +34,11 @@ public class StaticObject extends MapObject {
         this.removedTime = removedTime;
     }
 
-    public String getTypeObstacle() {
-        return TYPE_OBJECT;
-    }
-
-    public void setTypeObstacle(String  typeObstacle) {
-        this.TYPE_OBJECT = typeObstacle;
-    }
 
 
     public JSONObject loadConfig() {
         ObjectUtils objectUtils = new ObjectUtils();
-        return objectUtils.loadConfig(TYPE_CATEGORY, this.getTypeObstacle(), 1);
+        this.setLevel(1);
+        return objectUtils.loadConfig(TYPE_CATEGORY, this.getTypeObj(), 1);
     }
 }

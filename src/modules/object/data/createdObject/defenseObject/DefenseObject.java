@@ -6,6 +6,11 @@ import modules.object.data.createdObject.CreatedObject;
  * Created by CPU12750-local on 8/6/2020.
  */
 public class DefenseObject extends CreatedObject {
+
+
+
+    private final String TYPE_CATEGORY = "Defence";
+
     int minRange;
     int maxRange;
     int attackSpeed;
@@ -15,6 +20,10 @@ public class DefenseObject extends CreatedObject {
 
     public int getMinRange() {
         return minRange;
+    }
+
+    public String getTYPE_CATEGORY() {
+        return TYPE_CATEGORY;
     }
 
     public void setMinRange(int minRange) {

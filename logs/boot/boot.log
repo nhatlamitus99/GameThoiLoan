@@ -10,3 +10,12 @@
 07 Aug 2020 10:15:53,581 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:1101, TCP, 1024 }
 07 Aug 2020 10:15:53,582 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:1102, TCP, 1024 }
 07 Aug 2020 10:15:53,584 ERROR [main] bootLogger     - No bound sockets! Check the boot logs for possible problems!
+07 Aug 2020 14:00:15,591 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:1101, TCP, 1024 }
+07 Aug 2020 14:00:15,592 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:1102, TCP, 1024 }
+07 Aug 2020 14:00:15,594 ERROR [main] bootLogger     - No bound sockets! Check the boot logs for possible problems!
+07 Aug 2020 14:00:34,430 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:1101, TCP, 1024 }
+07 Aug 2020 14:00:34,432 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:1102, TCP, 1024 }
+07 Aug 2020 14:00:34,434 ERROR [main] bootLogger     - No bound sockets! Check the boot logs for possible problems!
+07 Aug 2020 14:03:23,439 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:1101, TCP, 1024 }
+07 Aug 2020 14:03:23,441 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:1102, TCP, 1024 }
+07 Aug 2020 14:03:23,444 ERROR [main] bootLogger     - No bound sockets! Check the boot logs for possible problems!

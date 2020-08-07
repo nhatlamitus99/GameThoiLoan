@@ -32,7 +32,8 @@ public class ClanCastle extends CreatedObject {
     // Resource cost
 
     public ClanCastle() {
-        this.setType("ClanCastle");
+        this.setType(TYPE_CATEGORY);
+        this.setTypeObj(TYPE_OBJECT);
     }
 
     public JSONObject loadConfig(int level) {

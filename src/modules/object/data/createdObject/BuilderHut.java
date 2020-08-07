@@ -13,7 +13,8 @@ public class BuilderHut extends CreatedObject{
     int coin;
 
     public BuilderHut() {
-        this.setType("BuilderHut");
+        this.setType(TYPE_CATEGORY);
+        this.setTypeObj(TYPE_OBJECT);
     }
 
     public JSONObject loadConfig(int level) {

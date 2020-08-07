@@ -28,7 +28,8 @@ public class TownHall extends CreatedObject {
     int capacityElixir;
 
     public TownHall() {
-        this.setType("TownHall");
+        this.setType(TYPE_CATEGORY);
+        this.setTypeObj(TYPE_OBJECT);
     }
 
     public JSONObject loadConfig(int level) {

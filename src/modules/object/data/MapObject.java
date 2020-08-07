@@ -18,6 +18,8 @@ public class MapObject extends DataModel {
 
     int typeId;
     String type;
+    String typeObj;
+    int level;
     String name;
     int size;
     int id;
@@ -28,6 +30,22 @@ public class MapObject extends DataModel {
     // Resource cost
 
 
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+
+    public String getTypeObj() {
+        return typeObj;
+    }
+
+    public void setTypeObj(String typeObj) {
+        this.typeObj = typeObj;
+    }
 
 
 

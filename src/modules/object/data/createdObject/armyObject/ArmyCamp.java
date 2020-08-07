@@ -16,7 +16,8 @@ public class ArmyCamp extends CreatedObject {
 
 
     public ArmyCamp() {
-        this.setType("ArmyCamp");
+        this.setType(TYPE_CATEGORY);
+        this.setTypeObj(TYPE_OBJECT);
     }
 
     public JSONObject loadConfig(int level) {
@@ -24,4 +25,11 @@ public class ArmyCamp extends CreatedObject {
         return objectUtils.loadConfig(TYPE_CATEGORY, TYPE_OBJECT, level);
     }
 
+    public String getTYPE_CATEGORY() {
+        return TYPE_CATEGORY;
+    }
+
+    public String getTYPE_OBJECT() {
+        return TYPE_OBJECT;
+    }
 }

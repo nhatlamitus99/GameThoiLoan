@@ -22,6 +22,7 @@ import event.handler.LogoutHandler;
 
 import java.util.List;
 
+import modules.game.GameMgr;
 import modules.game.data.Game;
 import modules.object.ObjectMgr;
 import modules.object.data.ObjectUtils;
@@ -64,7 +65,7 @@ public class FresherExtension extends BZExtension {
 
     public void init() {
 
-        Game game = new Game();
+        GameMgr gameMgr = new GameMgr();
 
 
 

@@ -10,7 +10,8 @@ public class AAGun extends DefenseObject {
     private final String TYPE_OBJECT = "DEF_5";
 
     public AAGun() {
-        this.setType("AAGun");
+        this.setType(this.getTYPE_CATEGORY());
+        this.setTypeObj(TYPE_OBJECT);
     }
 
     public JSONObject loadConfig() {
@@ -21,5 +22,9 @@ public class AAGun extends DefenseObject {
     public JSONObject loadDetailConfig(int level) {
         DefenseUtils defenseUtils = new DefenseUtils();
         return  defenseUtils.loadDetailConfig(TYPE_OBJECT, level);
+    }
+
+    public String getTYPE_OBJECT() {
+        return TYPE_OBJECT;
     }
 }

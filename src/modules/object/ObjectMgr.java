@@ -31,16 +31,18 @@ public class ObjectMgr extends DataModel {
 
     public void addObject(MapObject object) {
 
-        if(listObject.containsKey(object.getType())) {
-            listObject.get(object.getType()).add(object);
+        if(listObject.containsKey(object.getTypeObj())) {
+            object.setId(listObject.get(object.getTypeObj()).size());
+            listObject.get(object.getTypeObj()).add(object);
         }
         else {
             ArrayList<MapObject> list = new ArrayList<MapObject>();
+            object.setId(0);
             list.add(object);
-            listObject.put(object.getType(), list);
+            listObject.put(object.getTypeObj(), list);
         }
 
-        object.setId(listObject.get(object.getType()).size());
+
 
     }
 
@@ -49,7 +51,7 @@ public class ObjectMgr extends DataModel {
     }
 
     public MapObject getObject(String type, int id) {
-        return listObject.get(type).get(id - 1);
+        return listObject.get(type).get(id);
 
     }
 

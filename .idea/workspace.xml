@@ -2,22 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec064f22-a508-4df0-a51f-0308e7387b82" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\builder\data\BuilderHut.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\src\modules\builder\data\BuilderHut.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\game\data\Game.class" afterPath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\game\data\Game.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\object\ObjectMgr.class" afterPath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\object\ObjectMgr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/modules/game/data/GameData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/modules/object/ObjectData.java" />
+      <change type="DELETED" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\game\data\Game.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\object\data\createdObject\armyObject\Barrack.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\object\data\createdObject\defenseObject\AAGun.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\object\data\createdObject\defenseObject\Canon.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\object\data\createdObject\defenseObject\DefenseObject.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\object\data\createdObject\defenseObject\Trebuchet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MININT-KDPVO5B-local\Desktop\Latest\team_4_server\out\production\team_4_server\modules\object\data\staticObject\StaticObject.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/team_4_server/modules/object/data/createdObject/armyObject/ArmyCamp.class" afterPath="$PROJECT_DIR$/out/production/team_4_server/modules/object/data/createdObject/armyObject/ArmyCamp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AAGun.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AAGun.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AnchorTown.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AnchorTown.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/ArmyCamp.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/ArmyCamp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/Barrack.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/Barrack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/BuilderHut.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/BuilderHut.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Canon.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Canon.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/ClanCastle.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/ClanCastle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/CreatedObject.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/CreatedObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/DefenseObject.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/DefenseObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/ElixirMine.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/ElixirMine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/extension/FresherExtension.java" afterPath="$PROJECT_DIR$/src/extension/FresherExtension.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/game/data/Game.java" afterPath="$PROJECT_DIR$/src/modules/game/data/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/content/Documents/ConfigJSON/InitGame.json" afterPath="$PROJECT_DIR$/res/content/Documents/ConfigJSON/InitGame.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/game/GameMgr.java" afterPath="$PROJECT_DIR$/src/modules/game/GameMgr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/GoldMine.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/GoldMine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/MapObject.java" afterPath="$PROJECT_DIR$/src/modules/object/data/MapObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/ObjectMgr.java" afterPath="$PROJECT_DIR$/src/modules/object/ObjectMgr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/content/Documents/ConfigJSON/Obstacle.json" afterPath="$PROJECT_DIR$/res/content/Documents/ConfigJSON/Obstacle.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/game/data/Resource.java" afterPath="$PROJECT_DIR$/src/modules/game/data/Resource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/staticObject/StaticObject.java" afterPath="$PROJECT_DIR$/src/modules/object/data/staticObject/StaticObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/UserHandler.java" afterPath="$PROJECT_DIR$/src/service/UserHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/TownHall.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/TownHall.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Trebuchet.java" afterPath="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Trebuchet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/bitzero.log" afterPath="$PROJECT_DIR$/logs/bitzero.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/boot/boot.log" afterPath="$PROJECT_DIR$/logs/boot/boot.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -42,16 +55,119 @@
     <favorites_list name="team_4_server" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6654389">
+    <splitter split-orientation="horizontal" split-proportion="0.7145488">
       <split-first>
         <leaf>
           <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/modules/game/data/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48985508">
-                  <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.56330013">
+                  <caret line="113" column="74" selection-start-line="113" selection-start-column="74" selection-end-line="113" selection-end-column="74" />
                   <folding>
-                    <element signature="e#1781#1795#0" expanded="true" />
+                    <element signature="e#1093#1094#0" expanded="true" />
+                    <element signature="e#1126#1127#0" expanded="true" />
+                    <element signature="e#1182#1183#0" expanded="true" />
+                    <element signature="e#1226#1227#0" expanded="true" />
+                    <element signature="e#1263#1264#0" expanded="true" />
+                    <element signature="e#1294#1295#0" expanded="true" />
+                    <element signature="e#1344#1345#0" expanded="true" />
+                    <element signature="e#1384#1385#0" expanded="true" />
+                    <element signature="e#1423#1424#0" expanded="true" />
+                    <element signature="e#1455#1456#0" expanded="true" />
+                    <element signature="e#1508#1509#0" expanded="true" />
+                    <element signature="e#1550#1551#0" expanded="true" />
+                    <element signature="e#2196#2210#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StaticObject.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/data/staticObject/StaticObject.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GameData.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/game/data/GameData.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#443#455#0" expanded="true" />
+                    <element signature="e#503#504#0" expanded="true" />
+                    <element signature="e#533#534#0" expanded="true" />
+                    <element signature="e#586#587#0" expanded="true" />
+                    <element signature="e#621#622#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GameMgr.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/game/GameMgr.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InitGame.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/res/content/Documents/ConfigJSON/InitGame.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.2692308">
+                  <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ObjectData.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/ObjectData.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#247#248#0" expanded="true" />
+                    <element signature="e#275#276#0" expanded="true" />
+                    <element signature="e#314#315#0" expanded="true" />
+                    <element signature="e#348#349#0" expanded="true" />
+                    <element signature="e#446#447#0" expanded="true" />
+                    <element signature="e#481#482#0" expanded="true" />
+                    <element signature="e#537#538#0" expanded="true" />
+                    <element signature="e#585#586#0" expanded="true" />
+                    <element signature="e#624#625#0" expanded="true" />
+                    <element signature="e#657#658#0" expanded="true" />
+                    <element signature="e#709#710#0" expanded="true" />
+                    <element signature="e#753#754#0" expanded="true" />
+                    <element signature="e#779#780#0" expanded="true" />
+                    <element signature="e#804#805#0" expanded="true" />
+                    <element signature="e#837#838#0" expanded="true" />
+                    <element signature="e#865#866#0" expanded="true" />
+                    <element signature="e#899#900#0" expanded="true" />
+                    <element signature="e#930#931#0" expanded="true" />
+                    <element signature="e#977#978#0" expanded="true" />
+                    <element signature="e#1017#1018#0" expanded="true" />
+                    <element signature="e#1051#1052#0" expanded="true" />
+                    <element signature="e#1083#1084#0" expanded="true" />
+                    <element signature="e#1131#1132#0" expanded="true" />
+                    <element signature="e#1173#1174#0" expanded="true" />
+                    <element signature="e#1205#1206#0" expanded="true" />
+                    <element signature="e#1235#1236#0" expanded="true" />
+                    <element signature="e#1279#1280#0" expanded="true" />
+                    <element signature="e#1317#1318#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -61,22 +177,130 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="InitGame.json" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/res/content/Documents/ConfigJSON/InitGame.json">
+          <file leaf-file-name="ObjectMgr.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/ObjectMgr.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.20481928">
-                  <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+                <state vertical-scroll-proportion="0.3541963">
+                  <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1319#1330#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MapObject.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/data/MapObject.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#686#687#0" expanded="true" />
+                    <element signature="e#714#715#0" expanded="true" />
+                    <element signature="e#753#754#0" expanded="true" />
+                    <element signature="e#787#788#0" expanded="true" />
+                    <element signature="e#822#823#0" expanded="true" />
+                    <element signature="e#852#853#0" expanded="true" />
+                    <element signature="e#898#899#0" expanded="true" />
+                    <element signature="e#936#937#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CreatedObject.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/CreatedObject.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FresherExtension.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/extension/FresherExtension.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Obstacle.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/res/content/Documents/ConfigJSON/Obstacle.json">
+          <file leaf-file-name="ElixirMine.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/ElixirMine.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-                  <folding />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="14" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GoldMine.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/GoldMine.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MineUtils.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/MineUtils.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BuilderHut.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/BuilderHut.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClanCastle.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/ClanCastle.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="35" column="37" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="37" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#350#351#0" expanded="true" />
+                    <element signature="e#386#387#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TownHall.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/TownHall.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -118,32 +342,36 @@
         <option value="$PROJECT_DIR$/res/content/Documents/ConfigJSON/TroopBase.json" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/DefenseUtils.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/ArmyUtils.java" />
-        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/ArmyCamp.java" />
-        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/ElixirMine.java" />
-        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/GoldMine.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/warehouseObject/ElixirStorage.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/warehouseObject/GoldStorage.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/ObjectUtils.java" />
         <option value="$PROJECT_DIR$/res/content/Documents/ConfigJSON/TownHall.json" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Defense.java" />
+        <option value="$PROJECT_DIR$/src/service/UserHandler.java" />
+        <option value="$PROJECT_DIR$/src/modules/game/data/Resource.java" />
+        <option value="$PROJECT_DIR$/res/content/Documents/ConfigJSON/InitGame.json" />
+        <option value="$PROJECT_DIR$/res/content/Documents/ConfigJSON/Obstacle.json" />
+        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/DefenseObject.java" />
+        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/ArmyCamp.java" />
+        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/Barrack.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AAGun.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AnchorTown.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Canon.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Trebuchet.java" />
-        <option value="$PROJECT_DIR$/src/extension/FresherExtension.java" />
-        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/TownHall.java" />
+        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/ElixirMine.java" />
+        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/GoldMine.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/BuilderHut.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/ClanCastle.java" />
-        <option value="$PROJECT_DIR$/src/service/UserHandler.java" />
-        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/CreatedObject.java" />
+        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/TownHall.java" />
+        <option value="$PROJECT_DIR$/src/modules/object/ObjectData.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/MapObject.java" />
-        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/Barrack.java" />
-        <option value="$PROJECT_DIR$/src/modules/game/data/Resource.java" />
-        <option value="$PROJECT_DIR$/res/content/Documents/ConfigJSON/InitGame.json" />
-        <option value="$PROJECT_DIR$/src/modules/object/ObjectMgr.java" />
-        <option value="$PROJECT_DIR$/res/content/Documents/ConfigJSON/Obstacle.json" />
-        <option value="$PROJECT_DIR$/src/modules/game/data/Game.java" />
         <option value="$PROJECT_DIR$/src/modules/object/data/staticObject/StaticObject.java" />
+        <option value="$PROJECT_DIR$/src/extension/FresherExtension.java" />
+        <option value="$PROJECT_DIR$/src/modules/object/data/createdObject/CreatedObject.java" />
+        <option value="$PROJECT_DIR$/src/modules/game/GameMgr.java" />
+        <option value="$PROJECT_DIR$/src/modules/game/data/GameData.java" />
+        <option value="$PROJECT_DIR$/src/modules/object/ObjectMgr.java" />
+        <option value="$PROJECT_DIR$/src/modules/game/data/Game.java" />
       </list>
     </option>
   </component>
@@ -374,40 +602,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="warehouseObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="object" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="createdObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="harvestObject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -498,54 +692,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="map" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -573,72 +719,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team_4_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -683,6 +763,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ConfigJSON" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team_4_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team_4_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigJSON" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JsonViewerPackage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1001,16 +1111,16 @@
       <option name="number" value="Default" />
       <updated>1596678874585</updated>
       <workItem from="1596678880700" duration="26868000" />
-      <workItem from="1596765263363" duration="9980000" />
+      <workItem from="1596765263363" duration="18228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36848000" />
+    <option name="totallyTimeSpent" value="45096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1020,7 +1130,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2204126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2062975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1060,31 +1170,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/server.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team_4_server.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2094065">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/game/GameMgr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1116,13 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/MineUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/content/Documents/ConfigJSON/TroopBase.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1340694">
@@ -1137,28 +1219,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/DefenseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/ArmyCamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/warehouseObject/GoldStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48939395">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/ElixirMine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48939395">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -1169,41 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/DefenseObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Trebuchet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5409091">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Canon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12878788">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AnchorTown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12878788">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AAGun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46363637">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1235,20 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/TownHall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/GoldMine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15454546">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/content/Documents/ConfigJSON/TownHall.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08044164">
@@ -1260,22 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/BuilderHut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1303,14 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/extension/FresherExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/content/Documents/ConfigJSON/ClanCastle.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -1327,69 +1315,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/ClanCastle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/CreatedObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/map/data/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.058020476">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/MapObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#1474#1475#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/Barrack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69624573">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,18 +1363,273 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/content/Documents/ConfigJSON/InitGame.json">
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/DefenseUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20481928">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/Barrack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3942029">
+          <caret line="16" column="37" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AAGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4188406">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/AnchorTown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24637681">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/DefenseObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4826087">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Canon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34492755">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/defenseObject/Trebuchet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/ElixirMine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/GoldMine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/harvestObject/MineUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/BuilderHut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/ClanCastle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="37" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/TownHall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/object/data/ObjectUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.615942">
+        <state vertical-scroll-proportion="0.8376812">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/armyObject/ArmyCamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28555432">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extension/FresherExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/MapObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/createdObject/CreatedObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/ObjectData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/game/GameMgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/game/data/GameData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#455#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/content/Documents/ConfigJSON/InitGame.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/object/data/staticObject/StaticObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1453,30 +1638,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/object/ObjectMgr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73623186">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3541963">
+          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/object/data/staticObject/StaticObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8521739">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1319#1330#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/game/data/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48985508">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.56330013">
+          <caret line="113" column="74" selection-start-line="113" selection-start-column="74" selection-end-line="113" selection-end-column="74" />
           <folding>
-            <element signature="e#1781#1795#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#2196#2210#0" expanded="true" />
           </folding>
         </state>
       </provider>

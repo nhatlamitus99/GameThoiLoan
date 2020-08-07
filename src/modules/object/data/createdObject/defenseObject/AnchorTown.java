@@ -5,10 +5,16 @@ import org.json.JSONObject;
 
 public class AnchorTown extends DefenseObject {
 
+    public String getTYPE_OBJECT() {
+        return TYPE_OBJECT;
+    }
+
     private final String TYPE_OBJECT = "DEF_2";
 
+
     public AnchorTown() {
-        this.setType("AnchorTown");
+        this.setType(this.getTYPE_CATEGORY());
+        this.setTypeObj(TYPE_OBJECT);
     }
 
     public JSONObject loadBaseConfig() {

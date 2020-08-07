@@ -15,3 +15,5 @@
 07 Aug 2020 10:45:04,181 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
 07 Aug 2020 10:45:27,162 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
 07 Aug 2020 11:28:01,946 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 3, Size: 3
+07 Aug 2020 13:55:07,511 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.armyObject.ArmyCamp declares multiple JSON fields named level
+07 Aug 2020 14:13:18,567 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***

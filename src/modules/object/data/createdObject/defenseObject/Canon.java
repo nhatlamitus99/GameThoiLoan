@@ -4,11 +4,15 @@ import modules.object.data.createdObject.CreatedObject;
 import org.json.JSONObject;
 
 public class Canon extends DefenseObject {
+    public String getTYPE_OBJECT() {
+        return TYPE_OBJECT;
+    }
 
     private final String TYPE_OBJECT = "DEF_1";
 
     public Canon() {
-        this.setType("Canon");
+        this.setType(this.getTYPE_CATEGORY());
+        this.setTypeObj(TYPE_OBJECT);
     }
 
     public JSONObject loadConfig() {

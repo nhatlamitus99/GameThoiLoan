@@ -5,10 +5,15 @@ import org.json.JSONObject;
 
 public class Trebuchet extends DefenseObject {
 
+    public String getTYPE_OBJECT() {
+        return TYPE_OBJECT;
+    }
+
     private final String TYPE_OBJECT = "DEF_3";
 
     public Trebuchet() {
-        this.setType("Trebuchet");
+        this.setType(this.getTYPE_CATEGORY());
+        this.setTypeObj(TYPE_OBJECT);
     }
 
     public JSONObject loadConfig() {

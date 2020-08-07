@@ -24,7 +24,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Game extends DataModel {
+public class Game {
     GameInfo gameInfo;
     PlayerInfo playerInfo;
     Resource resource;
@@ -32,6 +32,32 @@ public class Game extends DataModel {
     ObjectMgr objectMgr;
     BuilderMgr builderMgr;
     ShopMgr shopMgr;
+
+
+    public PlayerInfo getPlayerInfo() {
+        return playerInfo;
+    }
+
+    public void setPlayerInfo(PlayerInfo playerInfo) {
+        this.playerInfo = playerInfo;
+    }
+
+    public Resource getResource() {
+        return resource;
+    }
+
+    public void setResource(Resource resource) {
+        this.resource = resource;
+    }
+
+    public ObjectMgr getObjectMgr() {
+        return objectMgr;
+    }
+
+    public void setObjectMgr(ObjectMgr objectMgr) {
+        this.objectMgr = objectMgr;
+    }
+
 
     public Game(){
         super();
@@ -41,14 +67,11 @@ public class Game extends DataModel {
 
     public void initGame() {
 
-        Gson gson = new Gson();
-
         ObjectUtils objectUtils = new ObjectUtils();
         JSONObject initObjects = objectUtils.loadBaseConfig("InitGame", "map");
         JSONObject initPlayer = objectUtils.loadBaseConfig("InitGame", "player");
         JSONObject initObs = objectUtils.loadBaseConfig("InitGame", "obs");
 
-        Resource resource = null;
         JSONObject TOW_1 = null;
         JSONObject AMC_1 = null;
         JSONObject RES_1 = null;
@@ -70,10 +93,8 @@ public class Game extends DataModel {
         TownHall townHall = objectMgr.loadTownHall(1);
         ArmyCamp armyCamp = objectMgr.loadArmyCamp(1);
         GoldMine goldMine = objectMgr.loadGoldMine(1);
-        BuilderHut builderHut = objectMgr.loadBuilderHut(3);
-        ClanCastle clanCastle = objectMgr.loadClanCastle(2);
-
-
+        BuilderHut builderHut = objectMgr.loadBuilderHut(1);
+        ClanCastle clanCastle = objectMgr.loadClanCastle(1);
 
 
         try {
@@ -85,12 +106,21 @@ public class Game extends DataModel {
         }
 
         try {
-            for(int i=1; i <= ObjectMgr.NUM_STATIC_OBJECT; i++) {
-                JSONObject jsonStaticObject = initObs.getJSONObject(i + "");
-                String typeObs = jsonStaticObject.getString("type");
-                StaticObject staticObject = objectMgr.loadStaticObject(typeObs);
-                staticObject.setPosition(new Point(jsonStaticObject.getInt("posX"), jsonStaticObject.getInt("posY")));
-                listObs.add(staticObject);
+            int iterator = 0;
+            while (true){
+                ++iterator;
+                JSONObject jsonStaticObject = null;
+                try {
+                    jsonStaticObject = initObs.getJSONObject(iterator + "");
+                    String typeObs = jsonStaticObject.getString("type");
+                    StaticObject staticObject = objectMgr.loadStaticObject(typeObs);
+                    staticObject.setPosition(new Point(jsonStaticObject.getInt("posX"), jsonStaticObject.getInt("posY")));
+                    listObs.add(staticObject);
+
+                } catch (JSONException e) {
+                    break;
+                }
+
 
             }
 
@@ -98,10 +128,9 @@ public class Game extends DataModel {
             e.printStackTrace();
         }
 
-        for(int i=0; i < listObs.size(); i++) {
+        for (int i = 0; i < listObs.size(); i++) {
             objectMgr.addObject(listObs.get(i));
         }
-
 
 
         try {
@@ -115,25 +144,12 @@ public class Game extends DataModel {
         }
 
 
-
-
         objectMgr.addObject(townHall);
         objectMgr.addObject(goldMine);
         objectMgr.addObject(armyCamp);
         objectMgr.addObject(builderHut);
         objectMgr.addObject(clanCastle);
-
-        HashMap<String, ArrayList<MapObject>> hashMap = objectMgr.getListObject();
-        for (ArrayList<MapObject> value : hashMap.values()) {
-            for(int i=0; i < value.size(); i++) {
-                System.out.println(gson.toJson(value.get(i)));
-            }
-        }
-
-
     }
-
-
 
     public void updateResource(Resource r){
 
