@@ -13,6 +13,7 @@ import modules.object.data.createdObject.ClanCastle;
 import modules.object.data.createdObject.TownHall;
 import modules.object.data.createdObject.armyObject.ArmyCamp;
 import modules.object.data.createdObject.armyObject.Barrack;
+import modules.object.data.createdObject.defenseObject.DefenseObject;
 import modules.object.data.createdObject.harvestObject.GoldMine;
 import modules.object.data.staticObject.StaticObject;
 import modules.shop.ShopMgr;
@@ -89,6 +90,8 @@ public class Game {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+
 
         TownHall townHall = objectMgr.loadTownHall(1);
         ArmyCamp armyCamp = objectMgr.loadArmyCamp(1);

@@ -17,7 +17,7 @@ public class Resource extends DataModel {
         G
     }
 
-    Resource(int GOLD, int ELIXIR, int G) {
+    public Resource(int GOLD, int ELIXIR, int G) {
         super();
         gold = GOLD;
         elixir = ELIXIR;
@@ -28,7 +28,8 @@ public class Resource extends DataModel {
         return gold;
     }
 
-    private void setGold(int gold) {
+    public void setGold(int gold) {
+        System.out.println("gold");
         this.gold = gold;
     }
 
@@ -36,7 +37,8 @@ public class Resource extends DataModel {
         return elixir;
     }
 
-    private void setElixir(int elixir) {
+    public void setElixir(int elixir) {
+        System.out.println("gold");
         this.elixir = elixir;
     }
 
@@ -44,7 +46,7 @@ public class Resource extends DataModel {
         return g;
     }
 
-    private void setG(int g) {
+    public void setG(int g) {
         this.g = g;
     }
 

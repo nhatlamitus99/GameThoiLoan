@@ -9,7 +9,12 @@ import modules.object.data.createdObject.CreatedObject;
 import modules.object.data.createdObject.TownHall;
 import modules.object.data.createdObject.armyObject.ArmyCamp;
 import modules.object.data.createdObject.armyObject.Barrack;
+import modules.object.data.createdObject.defenseObject.AAGun;
+import modules.object.data.createdObject.defenseObject.DefenseObject;
+import modules.object.data.createdObject.harvestObject.ElixirMine;
 import modules.object.data.createdObject.harvestObject.GoldMine;
+import modules.object.data.createdObject.warehouseObject.ElixirStorage;
+import modules.object.data.createdObject.warehouseObject.GoldStorage;
 import modules.object.data.staticObject.StaticObject;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -21,7 +26,7 @@ import java.util.List;
 
 
 public class ObjectMgr extends DataModel {
-    public static final int NUM_STATIC_OBJECT = 57;
+
     private HashMap<String, ArrayList<MapObject>> listObject;
 
     public ObjectMgr() {
@@ -42,8 +47,6 @@ public class ObjectMgr extends DataModel {
             listObject.put(object.getTypeObj(), list);
         }
 
-
-
     }
 
     public HashMap<String, ArrayList<MapObject>> getListObject() {
@@ -52,7 +55,6 @@ public class ObjectMgr extends DataModel {
 
     public MapObject getObject(String type, int id) {
         return listObject.get(type).get(id);
-
     }
 
     public TownHall loadTownHall(int level) {
@@ -108,6 +110,25 @@ public class ObjectMgr extends DataModel {
         return  goldMine;
     }
 
+    public ElixirMine loadElixirMine(int level) {
+        ElixirMine elixirMine = new ElixirMine();
+        elixirMine.setLevel(level);
+        try {
+            JSONObject elixir = elixirMine.loadConfig(level);
+            elixirMine.setSize(elixir.getInt("height"));
+            elixirMine.setHitPoints(elixir.getInt("hitpoints"));
+            elixirMine.setCapacity(elixir.getInt("capacity"));
+            elixirMine.setBuildingTime(elixir.getInt("buildTime"));
+            elixirMine.setProductivity(elixir.getInt("productivity"));
+            elixirMine.setTownHallLevelRequired(elixir.getInt("townHallLevelRequired"));
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return  elixirMine;
+    }
+
     public StaticObject loadStaticObject(String type) {
         StaticObject staticObject = new StaticObject(type);
         try {
@@ -157,11 +178,85 @@ public class ObjectMgr extends DataModel {
     public Barrack loadBarrack(int level) {
         Barrack barrack = new Barrack();
         barrack.setLevel(level);
-        JSONObject barrackJson = barrack.loadConfig(level);
-        System.out.println(barrackJson);
-        Gson gson = new Gson();
-        barrack = gson.fromJson(barrackJson.toString(), Barrack.class);
-        return  barrack;
+        try {
+            JSONObject jsonBarrack = barrack.loadConfig(level);
+            barrack.setSize(jsonBarrack.getInt("height"));
+            barrack.setHitPoints(jsonBarrack.getInt("hitpoints"));
+            barrack.setTownHallLevelRequired(jsonBarrack.getInt("townHallLevelRequired"));
+            barrack.setBuildingTime(jsonBarrack.getInt("buildTime"));
+            barrack.setCost(0, jsonBarrack.getInt("elixir"));
+            barrack.setQueueLength(jsonBarrack.getInt("queueLength"));
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return barrack;
     }
+
+    public GoldStorage loadGoldStorage(int level) {
+        GoldStorage gold = new GoldStorage();
+        gold.setLevel(level);
+        try {
+            JSONObject jsonGold = gold.loadConfig(level);
+            gold.setCapacity(jsonGold.getInt("capacity"));
+            gold.setSize(jsonGold.getInt("height"));
+            gold.setHitPoints(jsonGold.getInt("hitpoints"));
+            gold.setTownHallLevelRequired(jsonGold.getInt("townHallLevelRequired"));
+            gold.setBuildingTime(jsonGold.getInt("buildTime"));
+            gold.setCost(0, jsonGold.getInt("elixir"));
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return gold;
+    }
+
+    public ElixirStorage loadElixirStorage(int level) {
+        ElixirStorage elixir = new ElixirStorage();
+        elixir.setLevel(level);
+        try {
+            JSONObject jsonElixir = elixir.loadConfig(level);
+            elixir.setCapacity(jsonElixir.getInt("capacity"));
+            elixir.setSize(jsonElixir.getInt("height"));
+            elixir.setHitPoints(jsonElixir.getInt("hitpoints"));
+            elixir.setTownHallLevelRequired(jsonElixir.getInt("townHallLevelRequired"));
+            elixir.setBuildingTime(jsonElixir.getInt("buildTime"));
+            elixir.setCost(0, jsonElixir.getInt("elixir"));
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return elixir;
+    }
+
+    public DefenseObject loadDefenceObject(String typeObject, int level) {
+        DefenseObject defenseObject = DefenseObject.getInstance(typeObject);
+        defenseObject.setLevel(level);
+        try {
+            JSONObject jsonGun = defenseObject.loadConfig(typeObject);
+            JSONObject jsonDetailGun = defenseObject.loadDetailConfig(typeObject, level);
+
+            defenseObject.setMinRange(jsonGun.getDouble("minRange"));
+            defenseObject.setMaxRange(jsonGun.getDouble("maxRange"));
+            defenseObject.setAttackSpeed(jsonGun.getDouble("attackSpeed"));
+            defenseObject.setAttackRadius(jsonGun.getDouble("attackRadius"));
+            defenseObject.setAttackArea(jsonGun.getInt("attackArea"));
+            defenseObject.setAttackType(jsonGun.getInt("attackType"));
+            defenseObject.setCost(jsonDetailGun.getInt("gold"), 0);
+            defenseObject.setSize(jsonDetailGun.getInt("height"));
+            defenseObject.setHitPoints(jsonDetailGun.getInt("hitpoints"));
+            defenseObject.setTownHallLevelRequired(jsonDetailGun.getInt("townHallLevelRequired"));
+            defenseObject.setBuildingTime(jsonDetailGun.getInt("buildTime"));
+            defenseObject.setDamagePerSecond((jsonDetailGun.getInt("damagePerSecond")));
+            defenseObject.setDamagePerShot((jsonDetailGun.getInt("damagePerShot")));
+
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return defenseObject;
+    }
+
+
 
 }

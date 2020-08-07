@@ -27,8 +27,16 @@ public class MapObject extends DataModel {
     boolean state;
     String imagePath;
     Date beginTime;
-    // Resource cost
+    Resource cost = new Resource(0, 0, 0);
 
+    public Resource getCost() {
+        return cost;
+    }
+
+    public void setCost(int gold, int elixir) {
+        this.cost.setGold(gold);
+        this.cost.setElixir(elixir);
+    }
 
     public int getLevel() {
         return level;
@@ -46,7 +54,6 @@ public class MapObject extends DataModel {
     public void setTypeObj(String typeObj) {
         this.typeObj = typeObj;
     }
-
 
 
     public String getName() {

@@ -7,10 +7,7 @@ import java.util.Date;
 public class CreatedObject extends MapObject {
 
     int hitPoints;
-    int buildingCost;
     int buildingTime;
-    int upgradingCost;
-    int upgradingTime;
     int hp;
     int value;
     int capacity;
@@ -34,38 +31,12 @@ public class CreatedObject extends MapObject {
         this.hitPoints = hitPoints;
     }
 
-
-
-    public int getBuildingCost() {
-        return buildingCost;
-    }
-
-    public void setBuildingCost(int buildingCost) {
-        this.buildingCost = buildingCost;
-    }
-
     public int getBuildingTime() {
         return buildingTime;
     }
 
     public void setBuildingTime(int buildingTime) {
         this.buildingTime = buildingTime;
-    }
-
-    public int getUpgradingCost() {
-        return upgradingCost;
-    }
-
-    public void setUpgradingCost(int upgradingCost) {
-        this.upgradingCost = upgradingCost;
-    }
-
-    public int getUpgradingTime() {
-        return upgradingTime;
-    }
-
-    public void setUpgradingTime(int upgradingTime) {
-        this.upgradingTime = upgradingTime;
     }
 
     public int getHp() {
