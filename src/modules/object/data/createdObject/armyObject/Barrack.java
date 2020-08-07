@@ -8,6 +8,7 @@ public class Barrack extends CreatedObject {
 
     private final String TYPE_CATEGORY = "Barrack";
     private final String TYPE_OBJECT = "BAR_1";
+    int queueLength;
 
 
     public Barrack() {
@@ -21,5 +22,11 @@ public class Barrack extends CreatedObject {
     }
 
 
+    public int getQueueLength() {
+        return queueLength;
+    }
 
+    public void setQueueLength(int queueLength) {
+        this.queueLength = queueLength;
+    }
 }

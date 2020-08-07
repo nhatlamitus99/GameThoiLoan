@@ -1,12 +1,14 @@
 package modules.game.data;
 
+import com.google.gson.Gson;
 import model.GameInfo;
 import model.PlayerInfo;
 import modules.builder.BuilderMgr;
-import modules.builder.data.BuilderHut;
 import modules.map.data.Map;
 import modules.object.ObjectMgr;
+import modules.object.data.MapObject;
 import modules.object.data.ObjectUtils;
+import modules.object.data.createdObject.BuilderHut;
 import modules.object.data.createdObject.ClanCastle;
 import modules.object.data.createdObject.TownHall;
 import modules.object.data.createdObject.armyObject.ArmyCamp;
@@ -19,6 +21,8 @@ import org.json.JSONObject;
 import util.database.DataModel;
 
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Game extends DataModel {
     GameInfo gameInfo;
@@ -37,14 +41,21 @@ public class Game extends DataModel {
 
     public void initGame() {
 
+        Gson gson = new Gson();
+
         ObjectUtils objectUtils = new ObjectUtils();
         JSONObject initObjects = objectUtils.loadBaseConfig("InitGame", "map");
+        JSONObject initPlayer = objectUtils.loadBaseConfig("InitGame", "player");
+        JSONObject initObs = objectUtils.loadBaseConfig("InitGame", "obs");
 
+        Resource resource = null;
         JSONObject TOW_1 = null;
         JSONObject AMC_1 = null;
         JSONObject RES_1 = null;
         JSONObject BDH_1 = null;
         JSONObject CLC_1 = null;
+        ArrayList<StaticObject> listObs = new ArrayList<StaticObject>();
+
 
         try {
             TOW_1 = initObjects.getJSONObject("TOW_1");
@@ -59,8 +70,39 @@ public class Game extends DataModel {
         TownHall townHall = objectMgr.loadTownHall(1);
         ArmyCamp armyCamp = objectMgr.loadArmyCamp(1);
         GoldMine goldMine = objectMgr.loadGoldMine(1);
-        BuilderHut builderHut = new BuilderHut();
-        ClanCastle clanCastle = new ClanCastle();
+        BuilderHut builderHut = objectMgr.loadBuilderHut(3);
+        ClanCastle clanCastle = objectMgr.loadClanCastle(2);
+
+
+
+
+        try {
+            resource = new Resource(initPlayer.getInt("gold"),
+                    initPlayer.getInt("elixir"),
+                    initPlayer.getInt("coin"));
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            for(int i=1; i <= ObjectMgr.NUM_STATIC_OBJECT; i++) {
+                JSONObject jsonStaticObject = initObs.getJSONObject(i + "");
+                String typeObs = jsonStaticObject.getString("type");
+                StaticObject staticObject = objectMgr.loadStaticObject(typeObs);
+                staticObject.setPosition(new Point(jsonStaticObject.getInt("posX"), jsonStaticObject.getInt("posY")));
+                listObs.add(staticObject);
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        for(int i=0; i < listObs.size(); i++) {
+            objectMgr.addObject(listObs.get(i));
+        }
+
+
 
         try {
             townHall.setPosition(new Point(TOW_1.getInt("posX"), TOW_1.getInt("posY")));
@@ -81,23 +123,13 @@ public class Game extends DataModel {
         objectMgr.addObject(builderHut);
         objectMgr.addObject(clanCastle);
 
-        System.out.println(((TownHall)objectMgr.getObject("TownHall", 1)).getCapacity());
+        HashMap<String, ArrayList<MapObject>> hashMap = objectMgr.getListObject();
+        for (ArrayList<MapObject> value : hashMap.values()) {
+            for(int i=0; i < value.size(); i++) {
+                System.out.println(gson.toJson(value.get(i)));
+            }
+        }
 
-//        for(int i=0; i < ObjectMgr.NUM_STATIC_OBJECT; ++i) {
-//            StaticObject object = new StaticObject();
-//            objectMgr.addObject(object);
-//        }
-//
-//        resource = new Resource();
-//        map = new Map();
-//
-//        ObjectUtils objectUtils = new ObjectUtils();
-//        JSONObject initObjects = objectUtils.loadBaseConfig("InitGame", "map");
-//        try {
-//            System.out.println(initObjects.get("TOW_1"));
-//        } catch (JSONException e) {
-//            e.printStackTrace();
-//        }
 
     }
 

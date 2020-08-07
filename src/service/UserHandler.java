@@ -75,6 +75,9 @@ public class UserHandler extends BaseClientRequestHandler {
 
     }
 
+
+    // TO DO
+
     private void getUserInfo(User user) {
         try {
             PlayerInfo userInfo = (PlayerInfo) user.getProperty(ServerConstant.PLAYER_INFO);

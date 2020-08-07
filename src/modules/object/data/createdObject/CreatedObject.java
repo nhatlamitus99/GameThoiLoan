@@ -8,7 +8,6 @@ public class CreatedObject extends MapObject {
 
     int hitPoints;
     int level;
-    String description;
     int buildingCost;
     int buildingTime;
     int upgradingCost;
@@ -17,7 +16,6 @@ public class CreatedObject extends MapObject {
     int value;
     int capacity;
     int productivity;
-    Date beginTime;
 
     public int getTownHallLevelRequired() {
         return townHallLevelRequired;
@@ -27,7 +25,7 @@ public class CreatedObject extends MapObject {
         this.townHallLevelRequired = townHallLevelRequired;
     }
 
-    int townHallLevelRequired;
+    int townHallLevelRequired = 0;
 
     public int getHitPoints() {
         return hitPoints;
@@ -45,15 +43,6 @@ public class CreatedObject extends MapObject {
         this.level = level;
     }
 
-    @Override
-    public String getDescription() {
-        return description;
-    }
-
-    @Override
-    public void setDescription(String description) {
-        this.description = description;
-    }
 
     public int getBuildingCost() {
         return buildingCost;
@@ -119,13 +108,5 @@ public class CreatedObject extends MapObject {
         this.productivity = productivity;
     }
 
-    @Override
-    public Date getBeginTime() {
-        return beginTime;
-    }
 
-    @Override
-    public void setBeginTime(Date beginTime) {
-        this.beginTime = beginTime;
-    }
 }

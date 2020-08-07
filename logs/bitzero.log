@@ -1,16 +1,17 @@
-05 Jun 2020 14:44:09,102 WARN  [main] entities.managers.BZBannedUserManager     - Failure loading the BannedUser DB: java.io.InvalidClassException: bitzero.server.entities.managers.BanUserData; local class incompatible: stream classdesc serialVersionUID = -5615498807880409532, local class serialVersionUID = -5727904595766376640
-05 Jun 2020 14:44:14,461 WARN  [BZ-Alpha ShutdownHook] server.core.BZShutdownHook     - BZ-Alpha is shutting down. The process may take a few seconds...
-06 Aug 2020 10:07:05,037 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.armyObject.ArmyCamp declares multiple JSON fields named type
-06 Aug 2020 10:08:04,785 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.armyObject.ArmyCamp declares multiple JSON fields named type
-06 Aug 2020 10:09:19,019 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.armyObject.ArmyCamp declares multiple JSON fields named type
-06 Aug 2020 10:11:41,214 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.armyObject.ArmyCamp declares multiple JSON fields named type
-06 Aug 2020 10:36:58,285 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 14 column 6
-06 Aug 2020 14:17:20,963 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
-06 Aug 2020 14:21:30,756 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
-06 Aug 2020 15:06:40,848 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 2, Size: 1
-06 Aug 2020 15:07:02,060 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 1, Size: 1
-06 Aug 2020 15:08:00,450 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 3, Size: 3
-06 Aug 2020 15:09:08,952 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 3, Size: 3
-06 Aug 2020 15:46:14,227 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 3, Size: 3
-06 Aug 2020 16:53:42,306 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 1, Size: 1
-06 Aug 2020 16:55:29,229 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 2, Size: 1
+07 Aug 2020 09:04:25,335 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.BuilderHut declares multiple JSON fields named description
+07 Aug 2020 09:07:46,481 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.BuilderHut declares multiple JSON fields named description
+07 Aug 2020 09:10:50,454 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.BuilderHut declares multiple JSON fields named description
+07 Aug 2020 09:12:33,779 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.BuilderHut declares multiple JSON fields named description
+07 Aug 2020 09:42:26,098 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+07 Aug 2020 09:43:09,915 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+07 Aug 2020 09:44:14,335 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+07 Aug 2020 09:51:14,710 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.ClanCastle declares multiple JSON fields named description
+07 Aug 2020 09:52:37,375 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.ClanCastle declares multiple JSON fields named description
+07 Aug 2020 09:53:32,034 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.ClanCastle declares multiple JSON fields named description
+07 Aug 2020 09:54:00,270 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.ClanCastle declares multiple JSON fields named description
+07 Aug 2020 09:55:41,620 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.ClanCastle declares multiple JSON fields named description
+07 Aug 2020 09:56:45,688 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IllegalArgumentException class modules.object.data.createdObject.ClanCastle declares multiple JSON fields named description
+07 Aug 2020 10:33:43,203 ERROR [main] bitzero.server.BitZeroServer     - java.lang.ClassCastException modules.object.data.MapObject cannot be cast to modules.object.data.createdObject.armyObject.Barrack
+07 Aug 2020 10:45:04,181 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+07 Aug 2020 10:45:27,162 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+07 Aug 2020 11:28:01,946 ERROR [main] bitzero.server.BitZeroServer     - java.lang.IndexOutOfBoundsException Index: 3, Size: 3

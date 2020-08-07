@@ -11,6 +11,26 @@ public class ClanCastle extends CreatedObject {
     private final String TYPE_OBJECT = "CLC_1";
     private final String TYPE_CATEGORY = "ClanCastle";
 
+    public int getTroopCapacity() {
+        return troopCapacity;
+    }
+
+    public void setTroopCapacity(int troopCapacity) {
+        this.troopCapacity = troopCapacity;
+    }
+
+    public int getRange() {
+        return range;
+    }
+
+    public void setRange(int range) {
+        this.range = range;
+    }
+
+    int troopCapacity;
+    int range;
+    // Resource cost
+
     public ClanCastle() {
         this.setType("ClanCastle");
     }

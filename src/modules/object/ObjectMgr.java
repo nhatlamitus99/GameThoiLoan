@@ -1,9 +1,14 @@
 package modules.object;
 
+import com.google.gson.Gson;
 import modules.map.data.Map;
 import modules.object.data.MapObject;
+import modules.object.data.createdObject.BuilderHut;
+import modules.object.data.createdObject.ClanCastle;
+import modules.object.data.createdObject.CreatedObject;
 import modules.object.data.createdObject.TownHall;
 import modules.object.data.createdObject.armyObject.ArmyCamp;
+import modules.object.data.createdObject.armyObject.Barrack;
 import modules.object.data.createdObject.harvestObject.GoldMine;
 import modules.object.data.staticObject.StaticObject;
 import org.json.JSONException;
@@ -16,7 +21,7 @@ import java.util.List;
 
 
 public class ObjectMgr extends DataModel {
-    public static final int NUM_STATIC_OBJECT = 5;
+    public static final int NUM_STATIC_OBJECT = 57;
     private HashMap<String, ArrayList<MapObject>> listObject;
 
     public ObjectMgr() {
@@ -35,7 +40,6 @@ public class ObjectMgr extends DataModel {
             listObject.put(object.getType(), list);
         }
 
-        System.out.println("id:" + listObject.get(object.getType()).size());
         object.setId(listObject.get(object.getType()).size());
 
     }
@@ -51,8 +55,9 @@ public class ObjectMgr extends DataModel {
 
     public TownHall loadTownHall(int level) {
         TownHall townHall = new TownHall();
+        townHall.setLevel(level);
         try {
-            JSONObject hall = townHall.loadConfig(1);
+            JSONObject hall = townHall.loadConfig(level);
             townHall.setSize(hall.getInt("height"));
             townHall.setHitPoints(hall.getInt("hitpoints"));
             townHall.setCapacity(hall.getInt("capacity"));
@@ -67,8 +72,9 @@ public class ObjectMgr extends DataModel {
 
     public ArmyCamp loadArmyCamp(int level) {
         ArmyCamp armyCamp = new ArmyCamp();
+        armyCamp.setLevel(level);
         try {
-            JSONObject army = armyCamp.loadConfig(1);
+            JSONObject army = armyCamp.loadConfig(level);
             armyCamp.setSize(army.getInt("height"));
             armyCamp.setHitPoints(army.getInt("hitpoints"));
             armyCamp.setCapacity(army.getInt("capacity"));
@@ -83,8 +89,9 @@ public class ObjectMgr extends DataModel {
 
     public GoldMine loadGoldMine(int level) {
         GoldMine goldMine = new GoldMine();
+        goldMine.setLevel(level);
         try {
-            JSONObject gold = goldMine.loadConfig(1);
+            JSONObject gold = goldMine.loadConfig(level);
             goldMine.setSize(gold.getInt("height"));
             goldMine.setHitPoints(gold.getInt("hitpoints"));
             goldMine.setCapacity(gold.getInt("capacity"));
@@ -99,7 +106,7 @@ public class ObjectMgr extends DataModel {
         return  goldMine;
     }
 
-    public StaticObject loadStaticObject(int type) {
+    public StaticObject loadStaticObject(String type) {
         StaticObject staticObject = new StaticObject(type);
         try {
             JSONObject staticObj = staticObject.loadConfig();
@@ -110,6 +117,49 @@ public class ObjectMgr extends DataModel {
             e.printStackTrace();
         }
         return staticObject;
+    }
+
+    public BuilderHut loadBuilderHut(int level) {
+        BuilderHut builderHut = new BuilderHut();
+        builderHut.setLevel(level);
+        try {
+            JSONObject builder = builderHut.loadConfig(level);
+            builderHut.setSize(builder.getInt("height"));
+            builderHut.setHitPoints(builder.getInt("hitpoints"));
+            builderHut.setCoin(builder.getInt("coin"));
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return builderHut;
+    }
+
+    public ClanCastle loadClanCastle(int level) {
+        ClanCastle clanCastle = new ClanCastle();
+        clanCastle.setLevel(level);
+        try {
+            JSONObject castle = clanCastle.loadConfig(level);
+            clanCastle.setSize(castle.getInt("height"));
+            clanCastle.setHitPoints(castle.getInt("hitpoints"));
+            clanCastle.setTownHallLevelRequired(castle.getInt("townHallLevelRequired"));
+            clanCastle.setBuildingTime(castle.getInt("buildTime"));
+            clanCastle.setRange(castle.getInt("range"));
+            clanCastle.setTroopCapacity(castle.getInt("troopCapacity"));
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return clanCastle;
+    }
+
+    public Barrack loadBarrack(int level) {
+        Barrack barrack = new Barrack();
+        barrack.setLevel(level);
+        JSONObject barrackJson = barrack.loadConfig(level);
+        System.out.println(barrackJson);
+        Gson gson = new Gson();
+        barrack = gson.fromJson(barrackJson.toString(), Barrack.class);
+        return  barrack;
     }
 
 }

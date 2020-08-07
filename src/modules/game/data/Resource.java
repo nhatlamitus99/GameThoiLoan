@@ -4,14 +4,12 @@ import util.database.DataModel;
 
 public class Resource extends DataModel {
 
-    private final int GOLD_INIT = 1000;
-    private final int ELIXIR_INIT = 1000;
-    private final int G_INIT = 100;
-
 
     private int gold;
     private int elixir;
     private int g;
+
+
 
     enum Type {
         GOLD,
@@ -19,11 +17,11 @@ public class Resource extends DataModel {
         G
     }
 
-    Resource() {
+    Resource(int GOLD, int ELIXIR, int G) {
         super();
-        gold = GOLD_INIT;
-        elixir = ELIXIR_INIT;
-        g = G_INIT;
+        gold = GOLD;
+        elixir = ELIXIR;
+        g = G;
     }
 
     public int getGold() {

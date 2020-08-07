@@ -19,7 +19,6 @@ public class MapObject extends DataModel {
     int typeId;
     String type;
     String name;
-    String description;
     int size;
     int id;
     Point position;
@@ -38,14 +37,6 @@ public class MapObject extends DataModel {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public int getSize() {

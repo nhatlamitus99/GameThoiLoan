@@ -6,10 +6,16 @@ import org.json.JSONObject;
 
 public class StaticObject extends MapObject {
 
-    private int typeObstacle;
-
+    String TYPE_OBJECT;
     int removedTime;
     int value;
+
+    private final String TYPE_CATEGORY = "Obstacle";
+
+    public StaticObject(String TYPE_OBJECT) {
+        this.setType("StaticObject");
+        this.setTypeObstacle(TYPE_OBJECT);
+    }
 
     public int getValue() {
         return value;
@@ -19,12 +25,7 @@ public class StaticObject extends MapObject {
         this.value = value;
     }
 
-    private final String TYPE_CATEGORY = "Obstacle";
 
-    public StaticObject(int typeObstacle) {
-        this.setType("StaticObject");
-        this.setTypeObstacle(typeObstacle);
-    }
 
     public int getRemovedTime() {
         return removedTime;
@@ -34,17 +35,17 @@ public class StaticObject extends MapObject {
         this.removedTime = removedTime;
     }
 
-    public int getTypeObstacle() {
-        return typeObstacle;
+    public String getTypeObstacle() {
+        return TYPE_OBJECT;
     }
 
-    public void setTypeObstacle(int  typeObstacle) {
-        this.typeObstacle = typeObstacle;
+    public void setTypeObstacle(String  typeObstacle) {
+        this.TYPE_OBJECT = typeObstacle;
     }
 
 
     public JSONObject loadConfig() {
         ObjectUtils objectUtils = new ObjectUtils();
-        return objectUtils.loadConfig(TYPE_CATEGORY, "OBS_"+this.getTypeObstacle(), 1);
+        return objectUtils.loadConfig(TYPE_CATEGORY, this.getTypeObstacle(), 1);
     }
 }
