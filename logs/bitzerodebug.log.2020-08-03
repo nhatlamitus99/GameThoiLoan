@@ -1,0 +1,132 @@
+03 Aug 2020 09:30:27,978 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher2
+03 Aug 2020 09:33:29,858 WARN  [pool-1-thread-9] DemoHandler     - processUserLoginSuccess, name = Fresher3
+03 Aug 2020 09:36:26,683 WARN  [pool-1-thread-15] DemoHandler     - processUserLoginSuccess, name = Fresher4
+03 Aug 2020 09:37:27,922 WARN  [pool-1-thread-18] DemoHandler     - processUserLoginSuccess, name = Fresher5
+03 Aug 2020 09:37:59,218 WARN  [pool-1-thread-5] DemoHandler     - processUserLoginSuccess, name = Fresher6
+03 Aug 2020 09:42:15,506 WARN  [pool-1-thread-11] DemoHandler     - processUserLoginSuccess, name = Fresher7
+03 Aug 2020 09:44:24,730 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = Fresher2
+03 Aug 2020 09:47:09,125 WARN  [pool-1-thread-6] DemoHandler     - processUserLoginSuccess, name = Fresher3
+03 Aug 2020 09:48:41,392 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher2
+03 Aug 2020 09:48:58,467 WARN  [pool-1-thread-9] DemoHandler     - processUserLoginSuccess, name = Fresher3
+03 Aug 2020 09:49:15,951 WARN  [pool-1-thread-15] DemoHandler     - processUserLoginSuccess, name = Fresher4
+03 Aug 2020 09:49:29,423 WARN  [pool-1-thread-18] DemoHandler     - processUserLoginSuccess, name = Fresher5
+03 Aug 2020 09:49:36,858 WARN  [pool-1-thread-19] DemoHandler     - processUserLoginSuccess, name = Fresher6
+03 Aug 2020 09:52:07,752 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 09:52:40,750 WARN  [pool-1-thread-9] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 09:52:57,128 WARN  [pool-1-thread-15] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 09:53:33,013 WARN  [pool-1-thread-19] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 09:57:35,586 WARN  [pool-1-thread-5] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 09:58:40,424 WARN  [pool-1-thread-11] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 10:01:14,754 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 10:01:36,542 WARN  [pool-1-thread-9] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 10:02:08,764 WARN  [pool-1-thread-12] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 10:04:20,507 WARN  [pool-1-thread-18] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 10:04:41,838 WARN  [pool-1-thread-19] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:02:20,767 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:30:41,426 WARN  [pool-1-thread-9] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:33:14,992 WARN  [pool-1-thread-15] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:35:00,232 WARN  [pool-1-thread-19] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:39:14,335 WARN  [pool-1-thread-5] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:43:54,025 WARN  [pool-1-thread-11] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:48:43,990 WARN  [pool-1-thread-13] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:49:43,308 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:50:49,549 WARN  [pool-1-thread-5] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:52:12,064 WARN  [pool-1-thread-14] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:52:36,976 WARN  [pool-1-thread-18] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:57:11,628 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 13:58:17,755 WARN  [pool-1-thread-11] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:06:30,010 WARN  [pool-1-thread-13] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:06:56,733 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:13:16,625 WARN  [pool-1-thread-5] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:14:13,009 WARN  [pool-1-thread-14] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:14:54,719 WARN  [pool-1-thread-18] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:16:02,867 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:17:03,478 WARN  [pool-1-thread-12] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:21:44,875 WARN  [pool-1-thread-16] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:22:41,799 WARN  [pool-1-thread-13] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:22:55,085 WARN  [pool-1-thread-19] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:23:15,089 WARN  [pool-1-thread-7] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:30:14,442 WARN  [pool-1-thread-8] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:37:35,077 WARN  [pool-1-thread-15] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:40:31,333 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:43:00,688 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:45:37,140 WARN  [pool-1-thread-6] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:46:26,387 WARN  [pool-1-thread-12] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:52:33,493 WARN  [pool-1-thread-18] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:52:35,002 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:52:36,509 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:52:40,127 WARN  [pool-1-thread-6] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:52:52,601 WARN  [pool-1-thread-10] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:53:40,658 WARN  [pool-1-thread-16] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:56:58,024 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:58:23,185 WARN  [pool-1-thread-6] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:59:43,646 WARN  [pool-1-thread-11] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 14:59:55,412 WARN  [pool-1-thread-13] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 15:37:50,386 WARN  [pool-1-thread-16] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 15:51:47,159 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 15:51:48,566 WARN  [pool-1-thread-7] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 15:53:17,082 WARN  [pool-1-thread-12] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 15:53:24,115 WARN  [pool-1-thread-13] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 15:53:25,020 WARN  [pool-1-thread-20] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 15:55:16,302 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_0
+03 Aug 2020 16:00:42,439 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_16
+03 Aug 2020 16:14:31,460 WARN  [pool-1-thread-9] DemoHandler     - processUserLoginSuccess, name = Fresher_16
+03 Aug 2020 16:52:20,100 WARN  [pool-1-thread-15] DemoHandler     - processUserLoginSuccess, name = Fresher_1
+03 Aug 2020 16:54:21,238 WARN  [pool-1-thread-18] DemoHandler     - processUserLoginSuccess, name = Fresher_1
+03 Aug 2020 16:54:25,472 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = Fresher_1
+03 Aug 2020 16:54:26,981 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_1
+03 Aug 2020 17:00:50,331 WARN  [pool-1-thread-5] DemoHandler     - processUserLoginSuccess, name = Fresher_50
+03 Aug 2020 17:01:55,036 WARN  [pool-1-thread-13] DemoHandler     - processUserLoginSuccess, name = Fresher_50
+03 Aug 2020 17:04:55,216 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher_50
+03 Aug 2020 17:06:03,542 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:07:47,331 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:12:47,451 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:14:39,127 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:18:09,383 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:18:33,592 WARN  [pool-1-thread-9] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:20:54,772 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:23:11,427 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:24:31,249 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:27:06,326 WARN  [pool-1-thread-9] DemoHandler     - processUserLoginSuccess, name = trantuvan
+03 Aug 2020 17:35:51,795 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = hihi
+03 Aug 2020 17:36:20,242 WARN  [bitzero.server.controllers.ExtensionController-3] debug     -  | DO LOGIN EXCEPTION Can't add User: fff - Already exists in Room: null, Zone: null
+03 Aug 2020 17:36:20,252 WARN  [bitzero.server.controllers.ExtensionController-3] debug     -  | bitzero.server.exceptions.BZRuntimeException: Can't add User: fff - Already exists in Room: null, Zone: null
+	at bitzero.server.entities.managers.BZUserManager.addUser(Unknown Source)
+	at bitzero.server.api.BZApi.login(Unknown Source)
+	at bitzero.util.ExtensionUtility.canLogin(Unknown Source)
+	at extension.FresherExtension.doLogin(FresherExtension.java:129)
+	at bitzero.server.controllers.ExtensionController.processRequest(Unknown Source)
+	at bitzero.core.f.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03 Aug 2020 17:37:33,840 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = fff
+03 Aug 2020 17:37:39,053 WARN  [bitzero.server.controllers.ExtensionController-3] debug     -  | DO LOGIN EXCEPTION Can't add User: vanne - Already exists in Room: null, Zone: null
+03 Aug 2020 17:37:39,055 WARN  [bitzero.server.controllers.ExtensionController-3] debug     -  | bitzero.server.exceptions.BZRuntimeException: Can't add User: vanne - Already exists in Room: null, Zone: null
+	at bitzero.server.entities.managers.BZUserManager.addUser(Unknown Source)
+	at bitzero.server.api.BZApi.login(Unknown Source)
+	at bitzero.util.ExtensionUtility.canLogin(Unknown Source)
+	at extension.FresherExtension.doLogin(FresherExtension.java:129)
+	at bitzero.server.controllers.ExtensionController.processRequest(Unknown Source)
+	at bitzero.core.f.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+03 Aug 2020 17:45:19,855 WARN  [pool-1-thread-9] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:45:28,713 WARN  [pool-1-thread-12] DemoHandler     - processUserLoginSuccess, name = vanne
+03 Aug 2020 17:45:49,930 WARN  [pool-1-thread-18] DemoHandler     - processUserLoginSuccess, name = 123
+03 Aug 2020 17:46:06,238 WARN  [pool-1-thread-19] DemoHandler     - processUserLoginSuccess, name = 123
+03 Aug 2020 17:46:22,527 WARN  [bitzero.server.controllers.ExtensionController-2] debug     -  | DO LOGIN EXCEPTION Can't add User: 1234 - Already exists in Room: null, Zone: null
+03 Aug 2020 17:46:22,527 WARN  [bitzero.server.controllers.ExtensionController-2] debug     -  | bitzero.server.exceptions.BZRuntimeException: Can't add User: 1234 - Already exists in Room: null, Zone: null
+	at bitzero.server.entities.managers.BZUserManager.addUser(Unknown Source)
+	at bitzero.server.api.BZApi.login(Unknown Source)
+	at bitzero.util.ExtensionUtility.canLogin(Unknown Source)
+	at extension.FresherExtension.doLogin(FresherExtension.java:129)
+	at bitzero.server.controllers.ExtensionController.processRequest(Unknown Source)
+	at bitzero.core.f.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+

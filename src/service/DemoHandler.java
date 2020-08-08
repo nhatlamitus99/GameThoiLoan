@@ -102,7 +102,7 @@ public class DemoHandler extends BaseClientRequestHandler {
                 send(new ResponseMove(DemoError.PLAYERINFO_NULL.getValue(), new Point()), user);
             }
             
-            userInfo.move(move.getDirection());
+           // userInfo.move(move.getDirection());
             userInfo.saveModel(user.getId()); 
             
             send(new ResponseMove(DemoError.SUCCESS.getValue(), userInfo.position), user);

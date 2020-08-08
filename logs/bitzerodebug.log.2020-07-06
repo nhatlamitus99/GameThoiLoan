@@ -1,0 +1,8 @@
+12 Nov 2018 15:51:39,863 INFO  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, userId = 2
+12 Nov 2018 15:51:39,874 INFO  [bitzero.server.controllers.ExtensionController-2] DemoHandler     - get name = username_2
+12 Nov 2018 15:51:41,876 INFO  [bitzero.server.controllers.ExtensionController-3] DemoHandler     - set new name = new-name
+12 Nov 2018 15:51:43,874 INFO  [bitzero.server.controllers.ExtensionController-4] DemoHandler     - get name = new-name
+12 Nov 2018 16:31:39,411 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher2
+12 Nov 2018 16:31:39,418 INFO  [bitzero.server.controllers.ExtensionController-2] DemoHandler     - get name = username_2
+12 Nov 2018 16:31:41,425 INFO  [bitzero.server.controllers.ExtensionController-3] DemoHandler     - set new name = new-name
+12 Nov 2018 16:31:43,422 INFO  [bitzero.server.controllers.ExtensionController-4] DemoHandler     - get name = new-name

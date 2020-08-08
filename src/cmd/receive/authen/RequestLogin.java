@@ -16,6 +16,7 @@ public class RequestLogin extends BaseCmd {
     public void unpackData() {
         ByteBuffer bf = makeBuffer();
         try {
+            // read from login pack request
             sessionKey = readString(bf);
             userId = readInt(bf);
         } catch (Exception e) {

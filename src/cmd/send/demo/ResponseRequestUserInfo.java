@@ -18,8 +18,9 @@ public class ResponseRequestUserInfo extends BaseMsg {
     @Override
     public byte[] createData() {
         ByteBuffer bf = makeBuffer();
-        bf.putInt(info.position.x);
-        bf.putInt(info.position.y);
+        // put data to send client
+        putStr(bf, info.getName());
+
         return packBuffer(bf);
     }
 }

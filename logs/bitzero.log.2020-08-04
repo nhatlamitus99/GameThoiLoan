@@ -1,0 +1,32 @@
+04 Aug 2020 11:06:58,790 WARN  [EngineReader-0] bitzero.core.r     - Generic reading/selection error: bitzero.server.exceptions.BZRuntimeException: -Unexpected- Cannot find any User for Session: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:50751 }
+04 Aug 2020 11:06:58,791 WARN  [EngineReader-0] bitzero.core.r     - 
+bitzero.server.exceptions.BZRuntimeException: -Unexpected- Cannot find any User for Session: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:50751 }
+	bitzero.server.BitZeroServer.c(Unknown Source)
+	bitzero.server.BitZeroServer.c(Unknown Source)
+	bitzero.server.BitZeroServer$a.handleEvent(Unknown Source)
+	bitzero.core.ag.dispatchEvent(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.c(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.onSocketDisconnected(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.onSocketDisconnected(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.run(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Aug 2020 16:37:20,253 WARN  [bitzero.server.controllers.ExtensionController-1] server.api.BZApi     - Login failed: 21 , session is already expired!
+04 Aug 2020 16:37:20,254 WARN  [bitzero.server.controllers.ExtensionController-1] server.controllers.ExtensionController     - Slow  Extension call executed : 176643.1459in Cmd 1
+04 Aug 2020 16:37:50,019 WARN  [bitzero.server.controllers.ExtensionController-3] server.controllers.ExtensionController     - Slow  Extension call executed : 21422.0528in Cmd 1001
+04 Aug 2020 16:38:55,649 WARN  [bitzero.server.controllers.ExtensionController-4] server.controllers.ExtensionController     - Slow  Extension call executed : 27401.5725in Cmd 1
+04 Aug 2020 16:42:57,880 WARN  [EngineWriter-1] bitzero.core.s     - Socket closed during write operation for session: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:54448 }
+04 Aug 2020 16:42:57,979 WARN  [bitzero.server.controllers.ExtensionController-5] server.controllers.ExtensionController     - Slow  Extension call executed : 242329.6464in Cmd 1001
+04 Aug 2020 16:43:58,492 WARN  [bitzero.server.controllers.ExtensionController-7] server.controllers.ExtensionController     - Slow  Extension call executed : 2503.2937in Cmd 1001
+04 Aug 2020 16:45:48,028 WARN  [bitzero.server.controllers.ExtensionController-6] server.controllers.ExtensionController     - Slow  Extension call executed : 169849.0477in Cmd 1
+04 Aug 2020 16:47:58,533 WARN  [bitzero.server.controllers.ExtensionController-1] server.controllers.ExtensionController     - Slow  Extension call executed : 4360.5094in Cmd 1001
+04 Aug 2020 16:49:14,362 WARN  [bitzero.server.controllers.ExtensionController-10] server.controllers.ExtensionController     - Slow  Extension call executed : 139364.5179in Cmd 1
+04 Aug 2020 16:49:35,280 WARN  [bitzero.server.controllers.ExtensionController-2] server.controllers.ExtensionController     - Slow  Extension call executed : 10551.9461in Cmd 1
+04 Aug 2020 16:50:33,529 WARN  [bitzero.server.controllers.ExtensionController-3] server.controllers.ExtensionController     - Slow  Extension call executed : 3251.2618in Cmd 1001
+04 Aug 2020 16:51:01,047 WARN  [bitzero.server.controllers.ExtensionController-4] server.controllers.ExtensionController     - Slow  Extension call executed : 5089.3766in Cmd 1
+04 Aug 2020 17:45:45,825 WARN  [EngineWriter-1] bitzero.core.s     - Socket closed during write operation for session: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:54793 }
+04 Aug 2020 18:18:57,780 WARN  [EngineWriter-1] bitzero.core.s     - Socket closed during write operation for session: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:55614 }

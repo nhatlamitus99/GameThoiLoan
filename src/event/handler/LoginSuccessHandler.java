@@ -41,14 +41,17 @@ public class LoginSuccessHandler extends BaseServerEventHandler {
         }
 
         if (pInfo==null){
-            pInfo = new PlayerInfo(user.getId(), "username_" + user.getId());
+            pInfo = new PlayerInfo(user.getId(), user.getName());
             try {
+                user.setName("newAccount_" + user.getId());
                 pInfo.saveModel(user.getId());
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
-
+        else{
+            user.setName("existedAccount_" + user.getId());
+        }
         /**
          * cache playerinfo in RAM
          */

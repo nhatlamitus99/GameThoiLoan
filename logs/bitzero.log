@@ -1,2 +1,1 @@
-05 Jun 2020 14:44:09,102 WARN  [main] entities.managers.BZBannedUserManager     - Failure loading the BannedUser DB: java.io.InvalidClassException: bitzero.server.entities.managers.BanUserData; local class incompatible: stream classdesc serialVersionUID = -5615498807880409532, local class serialVersionUID = -5727904595766376640
-05 Jun 2020 14:44:14,461 WARN  [BZ-Alpha ShutdownHook] server.core.BZShutdownHook     - BZ-Alpha is shutting down. The process may take a few seconds...
+05 Aug 2020 09:23:23,949 WARN  [EngineWriter-1] bitzero.core.s     - Socket closed during write operation for session: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:57398 }

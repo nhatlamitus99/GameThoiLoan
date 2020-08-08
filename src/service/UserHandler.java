@@ -79,7 +79,7 @@ public class UserHandler extends BaseClientRequestHandler {
         try {
             PlayerInfo userInfo = (PlayerInfo) user.getProperty(ServerConstant.PLAYER_INFO);
             if (userInfo == null) {
-                userInfo = new PlayerInfo(user.getId(), "username_" + user.getId());
+                userInfo = new PlayerInfo(user.getId(), user.getName());
                 userInfo.saveModel(user.getId());
             }
             send(new ResponseRequestUserInfo(userInfo), user);

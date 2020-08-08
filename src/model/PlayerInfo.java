@@ -11,7 +11,6 @@ public class PlayerInfo extends DataModel {
     private int id;
     private String name;
 
-    
     public Point position;
 
     public PlayerInfo(int _id, String _name) {
@@ -24,29 +23,9 @@ public class PlayerInfo extends DataModel {
     public String toString() {
         return String.format("%s|%s", new Object[] { id, name });
     }
-    
-    public Point move(short direction){        
-        if (direction == DemoDirection.UP.getValue()){
-            position.x++;
-        }
-        else if (direction == DemoDirection.DOWN.getValue()){
-            position.x--;
-        }
-        else if (direction == DemoDirection.RIGHT.getValue()){
-            position.y++;
-        }
-        else{
-            position.y--;
-        }
-        
-        position.x = position.x % MaxPosition.X;
-        position.y = position.y % MaxPosition.Y;
-                
-        return position;
-    }
 
     public String getName(){
-        return name;
+        return this.name;
     }
 
     public String setName(String name){

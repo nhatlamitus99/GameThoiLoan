@@ -138,11 +138,12 @@ public class FresherExtension extends BZExtension {
 
     private UserInfo getUserInfo(String username, int userId, String ipAddress) throws Exception {
         int customLogin = ServerConstant.CUSTOM_LOGIN;
+        customLogin = 2;
         switch(customLogin){
             case 1: // login zingme
                 return ExtensionUtility.getUserInfoFormPortal(username);
             case 2: // set direct userid
-                return GuestLogin.setInfo(userId, "Fresher_" + userId);
+                return GuestLogin.setInfo(userId, username);
             default: // auto increment
                 return GuestLogin.newGuest();
         }        

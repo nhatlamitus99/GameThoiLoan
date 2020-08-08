@@ -1,0 +1,61 @@
+03 Aug 2020 09:46:01,397 WARN  [bitzero.server.controllers.ExtensionController-2] server.controllers.ExtensionController     - Slow  Extension call executed : 96804.4757in Cmd 1001
+03 Aug 2020 09:46:57,806 WARN  [bitzero.server.controllers.ExtensionController-3] server.controllers.ExtensionController     - Slow  Extension call executed : 62846.0935in Cmd 2001
+03 Aug 2020 09:52:11,689 WARN  [bitzero.server.controllers.ExtensionController-3] server.controllers.ExtensionController     - Slow  Extension call executed : 3162.4365in Cmd 2001
+03 Aug 2020 10:02:08,759 WARN  [bitzero.server.controllers.ExtensionController-6] server.controllers.ExtensionController     - Slow  Extension call executed : 15239.1117in Cmd 1
+03 Aug 2020 10:03:44,321 WARN  [bitzero.server.controllers.ExtensionController-7] server.controllers.ExtensionController     - Slow  Extension call executed : 95561.2752in Cmd 1001
+03 Aug 2020 10:04:20,506 WARN  [bitzero.server.controllers.ExtensionController-9] server.controllers.ExtensionController     - Slow  Extension call executed : 3230.075in Cmd 1
+03 Aug 2020 16:00:42,031 WARN  [bitzero.server.controllers.ExtensionController-1] server.api.BZApi     - Login failed: Fresher_0 , session is already expired!
+03 Aug 2020 16:00:42,032 WARN  [bitzero.server.controllers.ExtensionController-1] server.controllers.ExtensionController     - Slow  Extension call executed : 259696.3706in Cmd 1
+03 Aug 2020 17:37:00,675 WARN  [EngineReader-0] bitzero.core.r     - Generic reading/selection error: bitzero.server.exceptions.BZRuntimeException: -Unexpected- Cannot find any User for Session: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58245 }
+03 Aug 2020 17:37:00,675 WARN  [EngineReader-0] bitzero.core.r     - 
+bitzero.server.exceptions.BZRuntimeException: -Unexpected- Cannot find any User for Session: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58245 }
+	bitzero.server.BitZeroServer.c(Unknown Source)
+	bitzero.server.BitZeroServer.c(Unknown Source)
+	bitzero.server.BitZeroServer$a.handleEvent(Unknown Source)
+	bitzero.core.ag.dispatchEvent(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.c(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.onSocketDisconnected(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.onSocketDisconnected(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.run(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+03 Aug 2020 17:45:19,551 WARN  [EngineReader-0] bitzero.core.r     - Generic reading/selection error: bitzero.server.exceptions.BZRuntimeException: -Unexpected- Cannot find any User for Session: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58312 }
+03 Aug 2020 17:45:19,552 WARN  [EngineReader-0] bitzero.core.r     - 
+bitzero.server.exceptions.BZRuntimeException: -Unexpected- Cannot find any User for Session: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58312 }
+	bitzero.server.BitZeroServer.c(Unknown Source)
+	bitzero.server.BitZeroServer.c(Unknown Source)
+	bitzero.server.BitZeroServer$a.handleEvent(Unknown Source)
+	bitzero.core.ag.dispatchEvent(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.c(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.onSocketDisconnected(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.onSocketDisconnected(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.run(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+03 Aug 2020 17:46:50,983 WARN  [EngineReader-0] bitzero.core.r     - Generic reading/selection error: bitzero.server.exceptions.BZRuntimeException: -Unexpected- Cannot find any User for Session: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58623 }
+03 Aug 2020 17:46:50,983 WARN  [EngineReader-0] bitzero.core.r     - 
+bitzero.server.exceptions.BZRuntimeException: -Unexpected- Cannot find any User for Session: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58623 }
+	bitzero.server.BitZeroServer.c(Unknown Source)
+	bitzero.server.BitZeroServer.c(Unknown Source)
+	bitzero.server.BitZeroServer$a.handleEvent(Unknown Source)
+	bitzero.core.ag.dispatchEvent(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.c(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.onSocketDisconnected(Unknown Source)
+	bitzero.engine.sessions.DefaultSessionManager.onSocketDisconnected(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.a(Unknown Source)
+	bitzero.core.r.run(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
