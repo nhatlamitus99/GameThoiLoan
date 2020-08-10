@@ -35,15 +35,10 @@ import java.util.List;
 public class UserHandler extends BaseClientRequestHandler {
     public static short USER_MULTI_IDS = 1000;
     private final Logger logger = LoggerFactory.getLogger("UserHandler");
-    GameData gameData;
-    
-    public UserHandler(GameData data) {
+
+    public UserHandler() {
         super();
-        try {
-            this.gameData = data.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
+
 
     }
 
