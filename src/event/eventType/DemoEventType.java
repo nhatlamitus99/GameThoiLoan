@@ -7,7 +7,8 @@ import bitzero.server.core.IBZEventType;
  */
 public enum DemoEventType implements IBZEventType {
     CHANGE_NAME,
-    LOGIN_SUCCESS;
+    LOGIN_SUCCESS,
+    INIT_GAME;
 
     private DemoEventType() {
     }
