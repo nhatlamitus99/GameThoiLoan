@@ -23,7 +23,16 @@ public class ObjectData {
 
     Point position;
     Date beginTime;
-    Date resTime;
+
+    public Date getCurrentTime() {
+        return currentTime;
+    }
+
+    public void setCurrentTime(Date currentTime) {
+        this.currentTime = currentTime;
+    }
+
+    Date currentTime;
 
     public String getTypeCategory() {
         return typeCategory;
@@ -67,11 +76,4 @@ public class ObjectData {
         this.beginTime = beginTime;
     }
 
-    public Date getResTime() {
-        return resTime;
-    }
-
-    public void setResTime(Date resTime) {
-        this.resTime = resTime;
-    }
 }

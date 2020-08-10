@@ -7,6 +7,7 @@ import modules.object.data.MapObject;
 import util.database.DataModel;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * Created by CPU12750-local on 8/7/2020.
@@ -34,6 +35,7 @@ public class GameData extends DataModel implements Cloneable {
                 objectData.setLevel(list.get(i).getLevel());
                 objectData.setId(list.get(i).getId());
                 objectData.setPosition(list.get(i).getPosition());
+                objectData.setCurrentTime(new Date());
                 listObject.add(objectData);
             }
         }

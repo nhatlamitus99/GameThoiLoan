@@ -87,10 +87,12 @@ public class DemoHandler extends BaseClientRequestHandler {
                     RequestSetName set = new RequestSetName(dataCmd);
                     processSetName(set, user);
                     break;
+                // move
                 case CmdDefine.MOVE:
                     RequestMove move = new RequestMove(dataCmd);
                     processMove(user, move);
                     break;
+                // send data init game
                 case CmdDefine.GET_INIT_GAME:
                     processSendGameInfo(user, dataCmd);
                     break;
