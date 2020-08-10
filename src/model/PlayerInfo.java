@@ -10,13 +10,16 @@ public class PlayerInfo extends DataModel {
     // Zing me
     private int id;
     private String name;
-    public Point position;
 
     public PlayerInfo(int _id, String _name) {
         super();
         id = _id;
         name = _name;
-        position = new Point(0, 0);
+    }
+
+    public PlayerInfo(String _name) {
+        super();
+        name = _name;
     }
 
     public String toString() {

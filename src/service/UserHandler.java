@@ -38,8 +38,6 @@ public class UserHandler extends BaseClientRequestHandler {
 
     public UserHandler() {
         super();
-
-
     }
 
     public void init() {

@@ -1,12 +1,14 @@
 package modules.object;
 
+import util.database.DataModel;
+
 import java.awt.*;
 import java.util.Date;
 
 /**
  * Created by CPU12750-local on 8/7/2020.
  */
-public class ObjectData {
+public class ObjectData extends DataModel {
 
     String typeCategory;
     String typeObject;

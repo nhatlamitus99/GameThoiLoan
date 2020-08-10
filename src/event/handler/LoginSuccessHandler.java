@@ -61,6 +61,7 @@ public class LoginSuccessHandler extends BaseServerEventHandler {
          * send login success to client
          * after receive this message, client begin to send game logic packet to server
          */
+
         ExtensionUtility.instance().sendLoginOK(user);
         
         /**

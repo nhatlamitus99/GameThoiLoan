@@ -31,6 +31,8 @@ import model.PlayerInfo;
 
 import modules.game.GameMgr;
 import modules.game.data.GameData;
+import modules.object.ObjectData;
+import modules.object.data.MapObject;
 import org.apache.commons.lang.exception.ExceptionUtils;
 
 import org.slf4j.Logger;
@@ -65,7 +67,6 @@ public class DemoHandler extends BaseClientRequestHandler {
 
         getParentExtension().addEventListener(DemoEventType.LOGIN_SUCCESS, this);
 
-
     }
 
     @Override
@@ -81,20 +82,27 @@ public class DemoHandler extends BaseClientRequestHandler {
                 // get username
                 case CmdDefine.GET_NAME:
                     processGetName(user);
+                    System.out.println("getname");
                     break;
                 // set username
                 case CmdDefine.SET_NAME:
                     RequestSetName set = new RequestSetName(dataCmd);
                     processSetName(set, user);
+                    System.out.println("setname");
+
                     break;
-                // move
-                case CmdDefine.MOVE:
-                    RequestMove move = new RequestMove(dataCmd);
-                    processMove(user, move);
-                    break;
+//                // move
+//                case CmdDefine.MOVE:
+//                    RequestMove move = new RequestMove(dataCmd);
+//                    processMove(user, move);
+//                    System.out.println("move");
+//
+//                    break;
                 // send data init game
                 case CmdDefine.GET_INIT_GAME:
                     processSendGameInfo(user, dataCmd);
+                    System.out.println("initgame");
+
                     break;
 
 
@@ -127,23 +135,28 @@ public class DemoHandler extends BaseClientRequestHandler {
             System.out.println(e);
         }
     }
-    
-    private void processMove(User user, RequestMove move){
-        try {
-            PlayerInfo userInfo = (PlayerInfo) user.getProperty(ServerConstant.PLAYER_INFO);
-            if (userInfo==null){
-                send(new ResponseMove(DemoError.PLAYERINFO_NULL.getValue(), new Point()), user);
-            }
-            
-           // userInfo.move(move.getDirection());
-            userInfo.saveModel(user.getId()); 
-            
-            send(new ResponseMove(DemoError.SUCCESS.getValue(), userInfo.position), user);
-            
-        } catch (Exception e) {
-            send(new ResponseMove(DemoError.EXCEPTION.getValue(), new Point(0,0)), user);
-        }
+
+    private void processMoveObject(User user, RequestMove move) {
+        ObjectData object = new ObjectData();
+        //object.setPosition(move.getDirection());
     }
+    
+//    private void processMove(User user, RequestMove move){
+//        try {
+//            PlayerInfo userInfo = (PlayerInfo) user.getProperty(ServerConstant.PLAYER_INFO);
+//            if (userInfo==null){
+//                send(new ResponseMove(DemoError.PLAYERINFO_NULL.getValue(), new Point()), user);
+//            }
+//
+//            //userInfo.move(move.getDirection());
+//            userInfo.saveModel(user.getId());
+//
+//            send(new ResponseMove(DemoError.SUCCESS.getValue(), userInfo.position), user);
+//
+//        } catch (Exception e) {
+//            send(new ResponseMove(DemoError.EXCEPTION.getValue(), new Point(0,0)), user);
+//        }
+//    }
     
     private void processUserLoginSuccess(User user, String name){
         /**
