@@ -35,15 +35,10 @@ import java.util.List;
 public class UserHandler extends BaseClientRequestHandler {
     public static short USER_MULTI_IDS = 1000;
     private final Logger logger = LoggerFactory.getLogger("UserHandler");
-    GameData gameData;
-    
-    public UserHandler(GameData data) {
+
+    public UserHandler() {
         super();
-        try {
-            this.gameData = data.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
+
 
     }
 
@@ -86,17 +81,11 @@ public class UserHandler extends BaseClientRequestHandler {
 
     }
 
-
-
-
-
-
-
     private void getUserInfo(User user) {
         try {
             PlayerInfo userInfo = (PlayerInfo) user.getProperty(ServerConstant.PLAYER_INFO);
             if (userInfo == null) {
-                userInfo = new PlayerInfo(user.getId(), "username_" + user.getId());
+                userInfo = new PlayerInfo(user.getId(), user.getName());
                 userInfo.saveModel(user.getId());
             }
             send(new ResponseRequestUserInfo(userInfo), user);
