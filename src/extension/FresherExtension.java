@@ -63,10 +63,8 @@ public class FresherExtension extends BZExtension {
         svrLoop = new ServerLoop();
     }
 
-    public void init() {
 
-        GameMgr gameMgr = new GameMgr();
-    
+    public void init() {
 
 
 
@@ -76,6 +74,7 @@ public class FresherExtension extends BZExtension {
         trace("  Register Handler ");
         addRequestHandler(UserHandler.USER_MULTI_IDS, UserHandler.class);
         addRequestHandler(DemoHandler.DEMO_MULTI_IDS, DemoHandler.class);
+
 
         /**
          * register new event

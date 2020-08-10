@@ -3,6 +3,7 @@ package cmd.send.demo;
 import bitzero.server.extensions.data.BaseMsg;
 import cmd.CmdDefine;
 import com.google.gson.Gson;
+import model.PlayerInfo;
 import modules.game.data.GameData;
 
 import java.nio.ByteBuffer;
@@ -10,8 +11,10 @@ import java.nio.ByteBuffer;
 /**
  * Created by CPU12750-local on 8/7/2020.
  */
+
 public class ResponseGetInitGame extends BaseMsg {
     public GameData gameData;
+
     Gson gson = new Gson();
 
     public ResponseGetInitGame(GameData data) {
