@@ -12,6 +12,7 @@ import cmd.CmdDefine;
 
 import cmd.receive.user.RequestUserInfo;
 
+import cmd.send.demo.ResponseGetInitGame;
 import cmd.send.demo.ResponseRequestUserInfo;
 
 import event.eventType.DemoEventParam;
@@ -20,6 +21,7 @@ import extension.FresherExtension;
 
 import model.PlayerInfo;
 
+import modules.game.data.GameData;
 import org.apache.commons.lang.exception.ExceptionUtils;
 
 
@@ -73,6 +75,28 @@ public class UserHandler extends BaseClientRequestHandler {
             logger.warn(ExceptionUtils.getStackTrace(e));
         }
 
+    }
+
+
+    // TO DO
+
+    private void getGameInfo(GameData gameData, User user) {
+        GameData game = new GameData();
+        try {
+            game = gameData.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        try {
+            PlayerInfo userInfo = (PlayerInfo) user.getProperty(ServerConstant.PLAYER_INFO);
+            if (userInfo == null) {
+                userInfo.saveModel(user.getId());
+            }
+            game.saveModel(user.getId());
+            send(new ResponseGetInitGame(game), user);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
     }
 
     private void getUserInfo(User user) {

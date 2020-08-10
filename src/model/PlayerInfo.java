@@ -10,7 +10,6 @@ public class PlayerInfo extends DataModel {
     // Zing me
     private int id;
     private String name;
-
     public Point position;
 
     public PlayerInfo(int _id, String _name) {
