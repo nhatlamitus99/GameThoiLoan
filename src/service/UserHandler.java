@@ -35,9 +35,16 @@ import java.util.List;
 public class UserHandler extends BaseClientRequestHandler {
     public static short USER_MULTI_IDS = 1000;
     private final Logger logger = LoggerFactory.getLogger("UserHandler");
+    GameData gameData;
     
-    public UserHandler() {
+    public UserHandler(GameData data) {
         super();
+        try {
+            this.gameData = data.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public void init() {
@@ -66,10 +73,12 @@ public class UserHandler extends BaseClientRequestHandler {
         try {
             switch (dataCmd.getId()) {
             case CmdDefine.GET_USER_INFO:
-                RequestUserInfo reqInfo = new RequestUserInfo(dataCmd);                
+                RequestUserInfo reqInfo = new RequestUserInfo(dataCmd);
                 getUserInfo(user);
                 break;
+
             }
+
         } catch (Exception e) {
             logger.warn("USERHANDLER EXCEPTION " + e.getMessage());
             logger.warn(ExceptionUtils.getStackTrace(e));
@@ -78,26 +87,10 @@ public class UserHandler extends BaseClientRequestHandler {
     }
 
 
-    // TO DO
 
-    private void getGameInfo(GameData gameData, User user) {
-        GameData game = new GameData();
-        try {
-            game = gameData.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        try {
-            PlayerInfo userInfo = (PlayerInfo) user.getProperty(ServerConstant.PLAYER_INFO);
-            if (userInfo == null) {
-                userInfo.saveModel(user.getId());
-            }
-            game.saveModel(user.getId());
-            send(new ResponseGetInitGame(game), user);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-    }
+
+
+
 
     private void getUserInfo(User user) {
         try {

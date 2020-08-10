@@ -17,7 +17,6 @@ public class GameMgr {
 
     public void initGame() {
         game = new Game();
-        System.out.println(gson.toJson(game));
     }
 
     public void initGameData() {
@@ -29,5 +28,21 @@ public class GameMgr {
         gameData.loadMapObject(game.getObjectMgr());
         System.out.println(gson.toJson(gameData));
 
+    }
+
+    public Game getGame() {
+        return game;
+    }
+
+    public void setGame(Game game) {
+        this.game = game;
+    }
+
+    public GameData getGameData() {
+        return gameData;
+    }
+
+    public void setGameData(GameData gameData) {
+        this.gameData = gameData;
     }
 }

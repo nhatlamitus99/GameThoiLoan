@@ -14,6 +14,7 @@ import cmd.CmdDefine;
 import cmd.receive.demo.RequestMove;
 
 import cmd.receive.demo.RequestSetName;
+import cmd.send.demo.ResponseGetInitGame;
 import cmd.send.demo.ResponseGetName;
 import cmd.send.demo.ResponseMove;
 
@@ -22,10 +23,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 import cmd.send.demo.ResponseSetName;
+import com.google.gson.Gson;
 import event.eventType.DemoEventParam;
 import event.eventType.DemoEventType;
+import extension.FresherExtension;
 import model.PlayerInfo;
 
+import modules.game.GameMgr;
+import modules.game.data.GameData;
 import org.apache.commons.lang.exception.ExceptionUtils;
 
 import org.slf4j.Logger;
@@ -35,6 +40,11 @@ import util.server.ServerConstant;
 public class DemoHandler extends BaseClientRequestHandler {
     
     public static short DEMO_MULTI_IDS = 2000;
+    //FresherExtension fresherExtension = new FresherExtension();
+    GameMgr gameMgr = new GameMgr();
+    GameData gameData = gameMgr.getGameData();
+
+
 
     /**
      * log4j level
@@ -54,6 +64,8 @@ public class DemoHandler extends BaseClientRequestHandler {
     public void init() {
 
         getParentExtension().addEventListener(DemoEventType.LOGIN_SUCCESS, this);
+
+
     }
 
     @Override
@@ -62,6 +74,8 @@ public class DemoHandler extends BaseClientRequestHandler {
      *
      */
     public void handleClientRequest(User user, DataCmd dataCmd) {
+
+        System.out.println("TEST");
         try {
             switch (dataCmd.getId()) {
                 // get username
@@ -77,6 +91,11 @@ public class DemoHandler extends BaseClientRequestHandler {
                     RequestMove move = new RequestMove(dataCmd);
                     processMove(user, move);
                     break;
+                case CmdDefine.GET_INIT_GAME:
+                    processSendGameInfo(user, dataCmd);
+                    break;
+
+
             }
 
         } catch (Exception e) {
@@ -92,6 +111,18 @@ public class DemoHandler extends BaseClientRequestHandler {
     public void handleServerEvent(IBZEvent ibzevent) {        
         if (ibzevent.getType() == DemoEventType.LOGIN_SUCCESS) {
             this.processUserLoginSuccess((User)ibzevent.getParameter(DemoEventParam.USER), (String)ibzevent.getParameter(DemoEventParam.NAME));
+        }
+    }
+
+    // TO DO
+
+    private void processSendGameInfo(User user, DataCmd dataCmd)
+    {
+        try {
+            gameData.saveModel(user.getId());
+            send(new ResponseGetInitGame(gameData), user);
+        } catch (Exception e) {
+            System.out.println(e);
         }
     }
     
